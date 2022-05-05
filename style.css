@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* container
+=============== */
+
+.container {
+    max-width: 1330px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* header
+=============== */
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+
+    background-color: #242121;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 300px;
+    height: 100px;
+
+    border-radius: 10px;
+}
+/* nav 
+================= */
+
+.nav {
+    display: flex;
+    
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nav__link {
+    position: relative;
+
+    color: #c8c8c8;
+}
+
+.nav__link:not(:first-child) {
+    margin-left: 30px;
+}
+
+
+.nav__link:hover {
+    transition: .2s linear;
+    color: #f16423;
+}
+
+.nav__link:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    display: none;
+    margin-top: 2px;
+
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.nav__link:hover:after {
+    display: block;
+}
+
+/* intro
+=================== */
+
+.intro {
+    height: 1080px;
+
+    background-image: url(/img/bg-intro.png);
+}
+
+.intro__title {
+    padding-top: 400px;
+    font-size: 140px;
+    color: #fff;
+
+    font-family: 'Fredoka One', cursive;
+}
+
+.sub__title {
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 400;
+
+    color: #fff;
+}
+
+/* button 
+================*/
+
+.btn {
+    display: inline-block;
+
+    margin-right: 30px;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 20px;
+
+    background-color: #242121;
+    color: #fff;
+}
+
+.btn:hover {
+    transition: .2s linear;
+    box-shadow: 10px 10px 10px #1f1c1c; 
+    
+    background-color: #fff;
+    color: #000;
+}
+
+.btn--white {
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn--white:hover {
+    transition: .2s linear;
+    box-shadow: 10px 10px 10px #fff;   
+
+    background-color: #242121;
+    color: #fff;
+}
+
