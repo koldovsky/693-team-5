@@ -99,7 +99,7 @@ a {
 .intro {
     height: 1080px;
 
-    background-image: url(/img/bg-intro.png);
+    background-image: url(/img/intro_img/bg-intro.png);
 }
 
 .intro__title {
