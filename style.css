@@ -197,11 +197,10 @@ a {
     color: #fff;
 }
 
-<<<<<<< HEAD
 .about_me {
     height: 1080px;
     background-image: url(/img/about_me/5f772bf04d7077002204b9f5_optimized_1920.webp);
-=======
+}
 /* <!-- Blog--> */
 .blog {
     background-color: #000;
@@ -209,5 +208,4 @@ a {
 } 
 .blog .blog-list {
     text-decoration: none;
->>>>>>> e3f5e3a36bc794007a48e041de63d8c33cfdda25
 }
