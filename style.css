@@ -118,6 +118,42 @@ a {
     color: #fff;
 }
 
+/* events
+=================== */
+
+.events {
+    background-color: #0a0607;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.events__header__title {
+    font-size: 60px;
+    font-family: Crimson Text,serif;
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+}
+
+.events__header__logo-wrapper {
+    height: 30px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.events__header__logo {
+    height: 100%;
+    width: 100%;
+}
+
+.events__text {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(180,180,180);
+}
+
 /* button 
 ================*/
 
