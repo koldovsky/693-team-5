@@ -19,6 +19,7 @@ a {
 =============== */
 
 .container {
+    width: 100%;
     max-width: 1330px;
     padding: 0 15px;
     margin: 0 auto;
@@ -45,10 +46,8 @@ a {
 }
 
 .header__logo {
-    width: 300px;
+    width: 200px;
     height: 100px;
-
-    border-radius: 10px;
 }
 /* nav 
 ================= */
@@ -119,6 +118,42 @@ a {
     color: #fff;
 }
 
+/* events
+=================== */
+
+.events {
+    background-color: #0a0607;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.events__header__title {
+    font-size: 60px;
+    font-family: Crimson Text,serif;
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+}
+
+.events__header__logo-wrapper {
+    height: 30px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.events__header__logo {
+    height: 100%;
+    width: 100%;
+}
+
+.events__text {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(180,180,180);
+}
+
 /* button 
 ================*/
 
@@ -162,7 +197,17 @@ a {
     color: #fff;
 }
 
+<<<<<<< HEAD
 .about_me {
     height: 1080px;
     background-image: url(/img/about_me/5f772bf04d7077002204b9f5_optimized_1920.webp);
+=======
+/* <!-- Blog--> */
+.blog {
+    background-color: #000;
+    color: #fff;
+} 
+.blog .blog-list {
+    text-decoration: none;
+>>>>>>> e3f5e3a36bc794007a48e041de63d8c33cfdda25
 }
