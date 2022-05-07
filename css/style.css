@@ -132,33 +132,41 @@ a {
 
     background-color: #242121;
     color: #fff;
+    transition: transform 0.5s;
 }
 
 .btn:hover {
     transition: .2s linear;
-    box-shadow: 10px 10px 10px #1f1c1c; 
+    box-shadow: 10px 10px 20px #1f1c1c; 
     
     background-color: #fff;
     color: #000;
+
+    transform: scale(1.1);
 }
 
 .btn--white {
+    display: inline-block;
     padding: 15px 50px;
     font-size: 16px;
     font-weight: 700;
     
     background-color: #fff;
-    cursor: pointer;
     border-radius: 20px;
-    border: none;
+
+    transition: transform 0.5s;
+
 }
 
 .btn--white:hover {
     transition: .2s linear;
-    box-shadow: 10px 10px 10px #fff;   
+    box-shadow: 10px 10px 20px #1f1c1c;   
 
     background-color: #242121;
     color: #fff;
+
+    transform: scale(1.1);
+
 }
 
 /* features
