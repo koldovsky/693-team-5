@@ -241,3 +241,51 @@ a {
     text-align: center;
     color: rgb(180,180,180);
 }
+/* Contacts style
+==================*/
+.contacts {
+position: relative;
+background-color: rgb(232, 250, 250);
+font-family: inherit;
+}
+.contacts_information {
+position: absolute;
+padding-left: 100px;
+}
+.contacts_header {
+font-size: 62px;
+color: #222;
+line-height: 1.1;
+font-family:'Roboto',serif;
+font-weight: 600;
+}
+.contacts_visit {
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+}
+#header_address {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family:'Roboto',serif;
+    font-weight: 400;
+    color: rgb(54,151,236);
+}
+#header_hours {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family:'Roboto',serif;
+    font-weight: 400;
+    color: rgb(54,151,236);
+}
+#header_contacts {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family:'Roboto',serif;
+    font-weight: 400;
+    color: rgb(54,151,236);
+}
+.contacts_text_contacts {
+    
+}
