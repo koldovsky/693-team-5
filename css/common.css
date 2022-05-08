@@ -155,6 +155,11 @@ a {
 /* features
 ===================== */
 .features {
+    background-image: url(../img/about_me/decoration.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 1080px;
+    min-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 200px;
