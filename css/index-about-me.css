@@ -1,7 +1,8 @@
 .about_me{
     background-image: url(../img/about_me/5f772bf04d7077002204b9f5_optimized_1920.webp);
     background-size: cover;
-    background-position: center;
+    background-position: 70% 50%;
+    height: 770px;
     min-width: 992px;
     text-align: right;
     text-align: justify;
@@ -29,4 +30,5 @@ line-height: 1.5;
 }
 a{
     color: white;
+    
 }  
