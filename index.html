@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Donegal+One&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=PT+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -298,41 +299,53 @@
   <!-- Halyna Herega end-->
   <!-- Maksym Markovskyi Block Start -->
   <section class="faq">
-    <div class="container">
-      <h2 class="faq__h2">FAQ</h2>
-      <img class="faq__picture" alt="dot-line" src="img/img_gallery/faq-dot-line.svg">
-      <p class="faq__subheader">Here's a list of answer to the most frequently asked questions.</p>
-      <div class="faq__dropping__text">
-        <h3 class="faq__h3">How did you became an artist?</h3>
-        <p class="faq__h3__subtext">I have been drawing since childhood, then studied at the School of Visual Arts
-          in
-          New York.</p>
-      </div>
-      <div class="faq__dropping__text">
-        <h3 class="faq__h3">Where can I see your digital works?</h3>
-        <p class="faq__h3__subtext">I can send my digital portfolio upon request or you can find me on Dribble.</p>
-      </div>
-      <div class="faq__dropping__text">
-        <h3 class="faq__h3">How can we discuss collaboration issues?</h3>
-        <p class="faq__h3__subtext">You can contact me in any convenient way or just fill out the form below on this
-          website.</p>
-      </div>
-      <div class="faq__dropping__text">
-        <h3 class="faq__h3">Do you sell your paintings?</h3>
-        <p class="faq__h3__subtext">Yes, 90% of my art works are for sale.</p>
-      </div>
-      <div class="faq__dropping__text">
-        <h3 class="faq__h3">Is your gallery free to visit?</h3>
-        <p class="faq__h3__subtext">Yes, my gallery is totally free. Still, if you want to visit it, it's better to
-          call me in advance.</p>
-      </div>
-      <div class="faq__dropping__text">
-        <h3 class="faq__h3">Where can I see your photographs?</h3>
-        <p class="faq__h3__subtext">Photographs taken by me are featured in National Geographic, Daily Mail, New
-          York Times, etc.</p>
-      </div>
-    </div>
-  </section>
+    <h2 class="faq__h2">FAQ</h2>
+        <p class="faq__h2__subheader">Here's a list of answer to the most frequently asked questions.</p>
+        <button type="faq__button" class="faq__collapsible">How did you became an artist?</button>
+        <div class="faq__content">
+            <p class="faq__p1">I have been drawing since childhood, then studied at the School of Visual Arts in New York.</p>
+        </div><br>
+        <button type="faq__button" class="faq__collapsible">Where can I see your digital works?</button>
+        <div class="faq__content">
+            <p class="faq__p1">I can send my digital portfolio upon request or you can find me on Dribble.</p>
+        </div><br>
+        <button type="faq__button" class="faq__collapsible">How can we discuss collaboration issues?</button>
+        <div class="faq__content">
+            <p class="faq__p1">You can contact me in any convenient way or just fill out the form below on this website.</p>
+        </div><br>
+        <button type="faq__button" class="faq__collapsible">How can we discuss collaboration issues?</button>
+        <div class="faq__content">
+            <p class="faq__p1">You can contact me in any convenient way or just fill out the form below on this website.</p>
+        </div><br>    
+        <button type="faq__button" class="faq__collapsible">Do you sell your paintings?</button>
+        <div class="faq__content">
+            <p class="faq__p1">Yes, 90% of my art works are for sale.</p>
+        </div><br>    
+        <button type="faq__button" class="faq__collapsible">Is your gallery free to visit?</button>
+        <div class="faq__content">
+            <p class="faq__p1">Yes, my gallery is totally free. Still, if you want to visit it, it's better to call me in advance.</p>
+        </div><br>
+        <button type="faq__button" class="faq__collapsible">Where can I see your photographs?</button>
+        <div class="faq__content">
+            <p class="faq__p1">Photographs taken by me are featured in National Geographic, Daily Mail, New York Times, etc.</p>
+        </div><br>
+        <script type="text/javascript">
+            var coll = document.getElementsByClassName("faq__collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
+    </section>
   <!-- Maksym Markovskyi Block End -->
   <!-- Volodymyr Malenyk section "Contacts" start-->
   <Section class="contacts">
