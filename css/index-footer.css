@@ -1,4 +1,11 @@
+.footer {
+    padding: 50px;
+    width: 100%;
+    background-color: #0a0607;
+}
+
 .footer__bottom-navigation-links a {
+    margin-right: 30px;
     text-decoration: none;
     color: white;
 }
@@ -6,6 +13,9 @@
 .footer__bottom-navigation-links a:hover {
     color: rgb(240, 191, 76);
 }
+
 .footer__bottom-navigation {
-    background-color:#0a0607;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
