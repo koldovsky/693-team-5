@@ -1,11 +1,9 @@
-.top-img {
-    background-image: url(http://res2.weblium.site/res/5f6de0eef6a1af002125dd72/5f71da6d505aba002245f272_optimized_2560);
-}
 .footer {
-    padding: 100px;
+    padding: 50px;
     width: 100%;
     background-color: #0a0607;
 }
+
 
 .footer__bottom-navigation-links a {
     margin-right: 30px;
@@ -22,10 +20,11 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .bottom-text {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color:#716e6f;
+    color: #716e6f;
 }
