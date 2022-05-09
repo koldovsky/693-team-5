@@ -159,23 +159,17 @@ a {
 .features {
     display: flex;
     flex-wrap: wrap;
-
     margin: 200px 0;
-    min-width: 1200px;
-    min-height: 1080px;
-
-    background-size: cover;
-    background-position: center;
 }
 
 .features__item {
     width: 30%;
     text-align: center;
-    padding: 30px 20px;
+    padding: 40px;
     border-radius: 30px;
     margin: 20px;
 
-    background-color: #4e4e4e;
+    background-color: #444444;
     box-shadow: 10px 20px 20px #424242;
     transition: transform 0.5s;
     overflow: hidden;
@@ -183,7 +177,7 @@ a {
 
 .features__item:hover {
     cursor: pointer;
-    background-color: #7660b3;
+    background-color: #5e5e5e;
     box-shadow: 30px 30px 30px #1b1b1b;
 
     transform: scale(1.1);

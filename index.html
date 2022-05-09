@@ -13,7 +13,8 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Donegal+One&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=PT+Sans&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -96,29 +97,29 @@
   </section>
   <section class="about_me">
     <div class="container">
-    <div class="revue">
-      <h2 class="about_me_title">About Me & My Artistic Journey</h2>
-      <img class="about_me_logo" src="img/about_me/завантаження.svg" alt="logo">
-      <h3 class="about_me_subtitle">Welcome to my website! I'm Peter Smith, an artist and photographer based in New
-        York.</h3>
-      <p class="about_me__text">Since childhood, I knew that I wanted to connect my life with creativity. I studied at
-        the School of Visual Arts in New York, then worked in famous galleries in Europe. In 2018, I returned to New
-        York, opened my own gallery and started collaborating with popular brands. I hope you'll like my works. In the
-        meantime, subscribe to my social networks:</p>
-      <a href="https://www.youtube.com/">
-        <i class="fa-brands fa-youtube"></i>
-      </a>
-      <a href="https://www.instagram.com/">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-      <a href="https://www.facebook.com/">
-        <i class="fa-brands fa-facebook"></i>
-      </a>
-      <a href="https://twitter.com/?lang=uk">
-        <i class="fa-brands fa-twitter"></i>
-      </a>
+      <div class="revue">
+        <h2 class="about_me_title">About Me & My Artistic Journey</h2>
+        <img class="about_me_logo" src="img/about_me/завантаження.svg" alt="logo">
+        <h3 class="about_me_subtitle">Welcome to my website! I'm Peter Smith, an artist and photographer based in New
+          York.</h3>
+        <p class="about_me__text">Since childhood, I knew that I wanted to connect my life with creativity. I studied at
+          the School of Visual Arts in New York, then worked in famous galleries in Europe. In 2018, I returned to New
+          York, opened my own gallery and started collaborating with popular brands. I hope you'll like my works. In the
+          meantime, subscribe to my social networks:</p>
+        <a href="https://www.youtube.com/">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/?lang=uk">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
     </div>
-  </div>
   </section>
   <!-- Milashenko Daria block end -->
   <!-- Maks Malaniya block start-->
@@ -324,53 +325,65 @@
   <!-- Halyna Herega end-->
   <!-- Maksym Markovskyi Block Start -->
   <section class="faq">
-    <h2 class="faq__h2">FAQ</h2>
-        <p class="faq__h2__subheader">Here's a list of answer to the most frequently asked questions.</p>
-        <button type="faq__button" class="faq__collapsible">How did you became an artist?</button>
-        <div class="faq__content">
-            <p class="faq__p1">I have been drawing since childhood, then studied at the School of Visual Arts in New York.</p>
-        </div><br>
-        <button type="faq__button" class="faq__collapsible">Where can I see your digital works?</button>
-        <div class="faq__content">
-            <p class="faq__p1">I can send my digital portfolio upon request or you can find me on Dribble.</p>
-        </div><br>
-        <button type="faq__button" class="faq__collapsible">How can we discuss collaboration issues?</button>
-        <div class="faq__content">
-            <p class="faq__p1">You can contact me in any convenient way or just fill out the form below on this website.</p>
-        </div><br>
-        <button type="faq__button" class="faq__collapsible">How can we discuss collaboration issues?</button>
-        <div class="faq__content">
-            <p class="faq__p1">You can contact me in any convenient way or just fill out the form below on this website.</p>
-        </div><br>    
-        <button type="faq__button" class="faq__collapsible">Do you sell your paintings?</button>
-        <div class="faq__content">
-            <p class="faq__p1">Yes, 90% of my art works are for sale.</p>
-        </div><br>    
-        <button type="faq__button" class="faq__collapsible">Is your gallery free to visit?</button>
-        <div class="faq__content">
-            <p class="faq__p1">Yes, my gallery is totally free. Still, if you want to visit it, it's better to call me in advance.</p>
-        </div><br>
-        <button type="faq__button" class="faq__collapsible">Where can I see your photographs?</button>
-        <div class="faq__content">
-            <p class="faq__p1">Photographs taken by me are featured in National Geographic, Daily Mail, New York Times, etc.</p>
-        </div><br>
-        <script type="text/javascript">
-            var coll = document.getElementsByClassName("faq__collapsible");
-            var i;
-            
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
+    <div class="faq__top__img">
+      <img class="faq__top__img" alt="faq-top" src="img/img-faq/top-faq-optimized-1200-top.png">
+    </div>
+    <div class="container">
+      <h2 class="faq__h2">FAQ</h2>
+      <img alt="faq-dotline" class="faq__dotline" src="img/img-faq/faq-dot-line.svg">
+      <p class="faq__h2__subheader">Here's a list of answer to the most frequently asked questions.</p>
+      <button type="faq__button" class="faq__collapsible">How did you became an artist?</button>
+      <div class="faq__content">
+        <p class="faq__p1">I have been drawing since childhood, then studied at the School of Visual Arts in New York.
+        </p>
+      </div><br>
+      <button type="faq__button" class="faq__collapsible">Where can I see your digital works?</button>
+      <div class="faq__content">
+        <p class="faq__p1">I can send my digital portfolio upon request or you can find me on Dribble.</p>
+      </div><br>
+      <button type="faq__button" class="faq__collapsible">How can we discuss collaboration issues?</button>
+      <div class="faq__content">
+        <p class="faq__p1">You can contact me in any convenient way or just fill out the form below on this website.</p>
+      </div><br>
+      <button type="faq__button" class="faq__collapsible">How can we discuss collaboration issues?</button>
+      <div class="faq__content">
+        <p class="faq__p1">You can contact me in any convenient way or just fill out the form below on this website.</p>
+      </div><br>
+      <button type="faq__button" class="faq__collapsible">Do you sell your paintings?</button>
+      <div class="faq__content">
+        <p class="faq__p1">Yes, 90% of my art works are for sale.</p>
+      </div><br>
+      <button type="faq__button" class="faq__collapsible">Is your gallery free to visit?</button>
+      <div class="faq__content">
+        <p class="faq__p1">Yes, my gallery is totally free. Still, if you want to visit it, it's better to call me in
+          advance.</p>
+      </div><br>
+      <button type="faq__button" class="faq__collapsible">Where can I see your photographs?</button>
+      <div class="faq__content">
+        <p class="faq__p1">Photographs taken by me are featured in National Geographic, Daily Mail, New York Times, etc.
+        </p>
+      </div><br>
+      <script type="text/javascript">
+        var coll = document.getElementsByClassName("faq__collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
             }
-            </script>
-    </section>
+          });
+        }
+      </script>
+    </div>
+    <div class="faq__bot__img">
+      <img class="faq__bot__img" alt="faq-bottom" src="img/img-faq/bot-faq-optimized-1200-bot.png">
+    </div>
+  </section>
   <!-- Maksym Markovskyi Block End -->
   <!-- Volodymyr Malenyk section "Contacts" start-->
   <Section class="contacts">
@@ -428,16 +441,16 @@
           <a class="link" href="#Testmonials.html">Testmonials</a>
           <a class="link" href="#Contact-me.html">Contact me</a>
         </div>
-          <div class="link-img">
+        <div class="link-img">
           <a class="link-icon" href="https://facebook.com">
             <i class=" fa-brands fa-facebook"></i></a>
           <a class="link-icon" href="https://instagram.com">
             <i class=" fa-brands fa-instagram"></i></a>
           <a class="link-icon" href="https://youtube.com">
             <i class=" fa-brands fa-youtube"></i></a>
-          </div>
         </div>
-      </nav>
+    </div>
+    </nav>
     </div>
   </footer>
   <!-- Mykola block Footer end-->
