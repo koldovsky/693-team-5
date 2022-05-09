@@ -1,0 +1,90 @@
+.events {
+    background-color: #0a0607;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.events__title {
+    font-size: 60px;
+    font-family: serif;
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+}
+
+.events__logoWrapper {
+    height: 30px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.events__logo {
+    height: 100%;
+    width: 100%;
+}
+
+.events__subtitle {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(180,180,180);
+}
+
+.events__table {
+    margin-top: 50px;
+    border-spacing: 30px;
+}
+
+.events__table_leftColumn {
+    float: left;
+    width: 25%;
+}
+
+.events__table_rightColumn {
+    float: right;
+    width: 72%;
+}
+
+.events__table_image {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.events__cell_title {
+    font-size: 24px;
+    font-family: serif;
+    color: #fff;
+}
+
+.events__cell_subtitle {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #f4c524;
+}
+
+.events__cell_text {
+    line-height: 1.6;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: rgb(180,180,180);
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+.events__cell {
+    padding: 20px 0px 20px 0px;
+}
+
+.events__cell_left {
+    background-color: rgba(71, 70, 70, 0.14);
+}
+
+.events__cell_right {
+    background-color: rgb(16, 16, 16);
+}

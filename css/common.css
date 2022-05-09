@@ -220,66 +220,6 @@ a {
     text-decoration: none;
 }
 
-/* events
-=================== */
-
-.events {
-    background-color: #0a0607;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-.events__title {
-    font-size: 60px;
-    font-family: serif;
-    text-align: center;
-    color: #fff;
-    margin: 0px;
-}
-
-.events__logo-wrapper {
-    height: 30px;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.events__logo {
-    height: 100%;
-    width: 100%;
-}
-
-.events__subtitle {
-    font-size: 20px;
-    font-family: sans-serif;
-    text-align: center;
-    color: rgb(180,180,180);
-}
-
-.events__table {
-    margin-top: 50px;
-}
-
-.events__cell_title {
-    font-size: 24px;
-    font-family: serif;
-    color: #fff;
-}
-
-.events__cell_subtitle {
-    font-size: 15px;
-    font-family: sans-serif;
-    font-weight: 400;
-    color: #f4c524;
-}
-
-.events__cell_text {
-    font-size: 17px;
-    font-family: sans-serif;
-    color: rgb(180,180,180);
-    margin-top: 25px;
-}
-
 /* reviews 
 ======================= */
 
