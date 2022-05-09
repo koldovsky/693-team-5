@@ -1,53 +1,123 @@
-.conteiner{
-    display: flex;
-}
 .contacts_information {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     margin-top: 100px;
-    }
-.contacts_header{
+}
+
+.contacts_header {
     font-family: 'Crimson Pro', serif;
     font-weight: 600;
     text-align: left;
     text-transform: none;
     font-size: 48px;
-    color:#0a0607;
+    color: #0a0607;
 }
-.dot_line_illustration{
-    display:block;
+
+#dot_line_illustration {
+    display: block;
+    width: 100px;
 }
+
 .contacts_visit {
-    color: rgb(80,80,80);
+    color: rgb(80, 80, 80);
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     font-weight: 100;
 }
-.contacts_title{
-    color: rgb(54,151,236);
+
+.contacts_title {
+    color: rgb(54, 151, 236);
     font-family: 'Crimson Pro', serif;
     font-size: 20px;
-    font-weight: 600;  
+    font-weight: 600;
 }
-.contacts_address_of_NY, .contacts_hours_to_work {
-    color: rgba(0,0,0,0.6);
+
+.contacts_address_of_NY,
+.contacts_hours_to_work {
+    color: rgba(0, 0, 0, 0.6);
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     line-height: 1.75;
 }
-.contacts_tel, .contacts_mail {
+
+.contacts_tel,
+.contacts_mail {
     color: #474646;
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     line-height: 1.75;
     text-decoration: none;
 }
+
 .contacts_map {
-    margin-top: 100px;
+    margin-top: 30px;
 }
-.contacts_iframe{
-    width: 500px;
+
+.contacts_iframe {
+    width: 600px;
     height: 300px;
 }
+
 .contacts_form {
     background-color: #fff;
+    width: 600px;
+    height: 700px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 50px;
+
+}
+
+.contacts_form_header {
+    color: rgb(80, 80, 80);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form_input {
+    display: flex;
+    justify-content: left;
+    background-color: #f8f8f8;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.form_input_message {
+    display: flex;
+    justify-content: top;
+    background-color: #f8f8f8;
+    width: 500px;
+    height: 150px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding:0px 5px;
+    outline: none;
+    border: none;
+}
+.form_input_submit {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 40px;
+    margin-top: 80px;
+    background-color: #F4C524;
+    border-radius: 20px;
+    color: #fff;
+    transition: transform 0.5s;
+    align-items: center;
+    outline: none;
+    border: none;
+}
+.form_input_submit:hover {
+    background-color: #4f504df3;
+    color: #fff;
+}
+input {
+    outline: none;
+    border: none;
 }

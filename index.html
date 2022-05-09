@@ -387,11 +387,12 @@
   </section>
   <!-- Maksym Markovskyi Block End -->
   <!-- Volodymyr Malenyk section "Contacts" start-->
-  <div class="contacts">
-    <div class="container">
+
+  <div class="container">
+    <div class="contacts">
       <div class="contacts_information">
         <h2 class="contacts_header">Any questions?</h2>
-        <img class="dot_line_illustration" src="img/img_contacts/image_contacts_dot.svg" alt="dot line illustration">
+        <img id="dot_line_illustration" src="img/img_contacts/image_contacts_dot.svg" alt="dot line illustration">
         <p class="contacts_visit">Feel free to contact me or visit my gallery in New York!</p>
         <div class="contacts_contacts_information">
           <h3 class="contacts_title">Address</h3>
@@ -410,16 +411,16 @@
           </iframe>
         </div>
       </div>
-    </div>
-    <div class="contacts_form">
-      <p class="contacts_form_header">Fill out the form and I will contact you soon.</p>
-      <form class="contacts_form_list" action="https://formspree.io/f/xqkngvyv" method="POST">
-        <input name="name" type="text" placeholder="Enter your full name*" required> <br>
-        <input name="phone" type="tel" placeholder="Enter your phone number*" required> <br>
-        <input name="email" type="email" placeholder="Enter your email*" required> <br>
-        <input name="message" type="text" placeholder="Type your message"> <br>
-        <input type="submit" value="Send a Request">
-      </form>
+      <div class="contacts_form">
+        <p class="contacts_form_header">Fill out the form and I will contact you soon.</p>
+        <form class="contacts_form_list" action="https://formspree.io/f/xqkngvyv" method="POST">
+          <input class="form_input" name="name" type="text" placeholder="  Enter your full name*" required>
+          <input class="form_input" name="phone" type="tel" placeholder="  Enter your phone number*" required>
+          <input class="form_input" name="email" type="email" placeholder="  Enter your email*" required>
+          <input class="form_input_message" name="message" type="text" placeholder="  Type your message">
+         <input class="form_input_submit" type="submit" value="Send a Request">
+        </form>
+      </div>
     </div>
   </div>
   </div>
