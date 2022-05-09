@@ -1,3 +1,8 @@
+.block{
+    background-image: url(../img/about_me/decoration.png);
+    height: 200px;
+    background-color: #f4c524;
+}
 .about_me{
     background-image: url(../img/about_me/5f772bf04d7077002204b9f5_optimized_1920.webp);
     width: 100%;
