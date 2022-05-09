@@ -1,14 +1,12 @@
 .about_me{
     background-image: url(../img/about_me/5f772bf04d7077002204b9f5_optimized_1920.webp);
     width: 100%;
-    text-align: right;
-    text-align: justify;
     min-width: 992px;
     height: 770px;
 }
 .revue{
-    padding: 20px 70px 90px 70px;
-    margin: 0 80px 320px 650px;  
+    padding: -400px 70px 90px 70px;
+    margin: -100px 320px 320px 520px
 }
 .about_me_title{
     font-size: 60px;
