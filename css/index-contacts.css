@@ -1,0 +1,53 @@
+.conteiner{
+    display: flex;
+}
+.contacts_information {
+    width: 100%;
+    margin-top: 100px;
+    }
+.contacts_header{
+    font-family: 'Crimson Pro', serif;
+    font-weight: 600;
+    text-align: left;
+    text-transform: none;
+    font-size: 48px;
+    color:#0a0607;
+}
+.dot_line_illustration{
+    display:block;
+}
+.contacts_visit {
+    color: rgb(80,80,80);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+.contacts_title{
+    color: rgb(54,151,236);
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    font-weight: 600;  
+}
+.contacts_address_of_NY, .contacts_hours_to_work {
+    color: rgba(0,0,0,0.6);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+}
+.contacts_tel, .contacts_mail {
+    color: #474646;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+    text-decoration: none;
+}
+.contacts_map {
+    margin-top: 100px;
+}
+.contacts_iframe{
+    width: 500px;
+    height: 300px;
+}
+.contacts_form {
+    background-color: #fff;
+}
