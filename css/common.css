@@ -166,11 +166,11 @@ a {
 .features__item {
     width: 30%;
     text-align: center;
-    padding: 40px;
-    border-radius: 30px;
+    padding: 50px;
+    border-radius: 50%;
     margin: 20px;
 
-    background-color: #444444;
+    background-color: #3c3c3c;
     box-shadow: 10px 20px 20px #424242;
     transition: transform 0.5s;
     overflow: hidden;
@@ -178,7 +178,7 @@ a {
 
 .features__item:hover {
     cursor: pointer;
-    background-color: #5e5e5e;
+    background-color: #4b4b4b;
     box-shadow: 30px 30px 30px #1b1b1b;
 
     transform: scale(1.1);
@@ -187,12 +187,12 @@ a {
 .features__result {
     font-size: 30px;
     
-    color: #aaff00;
+    color: #ff7700;
 }
 
 .features__title {
     font-size: 24px;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
     color: #aaff00;
     
     font-family: 'Crimson Pro', serif;
