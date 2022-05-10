@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@700&family=Roboto:wght@400;700&display=swap');
+
+
 body {
     margin: 0;
 
     background-color: #f8f8f8;
-
-    font-family: 'Roboto', sans-serif;
 }
 
 *,
@@ -16,6 +18,26 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+
+
+:root {
+    /* main text */
+    font-family: 'Roboto', sans-serif; 
+    /* main end */
+
+    /* title */
+    font-family: 'Crimson Pro', serif;
+    /* title end */
+
+    --main-color: #f8f8f8;
+    --white-color: #fff;
+    --black-color: #000;
+    --yellow-color: #f4c524;
+    --grey-color: #b4b4b4;
+    --dark-grey: #505050;
+}
+
 
 /* container
 =============== */
