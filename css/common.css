@@ -178,7 +178,7 @@ a {
 
 .features__item:hover {
     cursor: pointer;
-    background-color: #4b4b4b;
+    background-color: #292929;
     box-shadow: 30px 30px 30px #1b1b1b;
 
     transform: scale(1.1);
@@ -187,13 +187,13 @@ a {
 .features__result {
     font-size: 30px;
     
-    color: #ff7700;
+    color: #ff6200;
 }
 
 .features__title {
     font-size: 24px;
     letter-spacing: 4px;
-    color: #aaff00;
+    color: #ffdd00;
     
     font-family: 'Crimson Pro', serif;
 }
@@ -202,8 +202,7 @@ a {
     line-height: 1.6;
     font-size: 17px;
     font-weight: 400;
-
-    color: #fff;
+    color: #5ad470;
 }
 
 /* <!-- Blog--> */
