@@ -1,0 +1,85 @@
+/* reviews 
+======================= */
+
+.reviews {
+    margin-top: 200px;
+
+    background-color: #f8f8f8;
+}
+
+.reviews__inner {
+    text-align: center;
+}
+
+.reviews__img {
+    margin: 30px 0 20px 0;
+}
+
+.reviews__title {
+    font-size: 60px;
+
+    font-family: 'Crimson Pro', serif;
+}
+
+.reviews-sub__title {
+    margin-bottom: 70px;
+    font-size: 20px;
+    font-weight: 400;
+
+    font-family: 'Crimson Pro', serif;
+
+}
+
+/* slider
+================== */
+
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slider__item {
+    width: 30%;
+    text-align: center;
+    padding: 60px 40px;
+    margin: 10px;
+    background-color: #fff;
+
+    transition: transform 1s;
+}
+
+.slider__item:hover {
+    transform: scale(1.1);
+}
+
+.slider__img {
+    width: 38%;
+    height: 25%;
+    object-fit: cover;
+
+    margin-bottom: 20px;
+
+    border-radius: 100%;
+}
+
+.lider__title {
+    font-size: 30px;
+    font-family: 'Crimson Pro', serif;
+
+    margin-bottom: 50px;
+}
+
+.slider__text {
+    margin-bottom: 20px;
+
+    line-height: 1.6;
+    font-size: 17px;
+    font-weight: 400;
+    color: #a4a4a4;
+}
+
+
+time {
+    font-weight: 700;
+}

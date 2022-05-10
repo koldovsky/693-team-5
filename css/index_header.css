@@ -1,0 +1,126 @@
+/* header
+=============== */
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+
+    background-color: #242121;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 200px;
+    height: 100px;
+}
+
+/* nav 
+================= */
+
+.nav {
+    display: flex;
+    
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.nav__link {
+    position: relative;
+
+    color: #fff;
+}
+
+.nav__link:not(:first-child) {
+    margin-left: 30px;
+}
+
+
+.nav__link:hover {
+    transition: .2s linear;
+    color: #f16423;
+}
+
+/* intro
+=================== */
+
+.intro {
+    height: 1080px;
+
+    background-image: url(/img/intro_img/bg-intro.png);
+}
+
+.intro__title {
+    padding-top: 400px;
+    font-size: 140px;
+    font-weight: 700;
+    color: #fff;
+
+    font-family: 'Lora', serif;
+}
+
+.intro-sub__title {
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 400;
+
+    color: #fff;
+}
+
+/* button 
+================*/
+
+.btn {
+    display: inline-block;
+
+    margin-right: 30px;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 20px;
+
+    background-color: #242121;
+    color: #fff;
+    transition: transform 0.5s;
+}
+
+.btn:hover {
+    transition: .2s linear;
+    box-shadow: 10px 10px 20px #1f1c1c; 
+    
+    background-color: #fff;
+    color: #000;
+
+    transform: scale(1.1);
+}
+
+.btn--white {
+    display: inline-block;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+
+    transition: transform 0.5s;
+}
+
+.btn--white:hover {
+    transition: .2s linear;
+    box-shadow: 10px 10px 20px #1f1c1c;   
+
+    background-color: #242121;
+    color: #fff;
+
+    transform: scale(1.1);
+}
