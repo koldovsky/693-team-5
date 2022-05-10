@@ -33,6 +33,7 @@
     font-weight: 400;
 }
 .gallery_item {
+    width: 360px;
     padding: 0 15px;
     cursor:pointer;
 }
