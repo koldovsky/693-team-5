@@ -1,4 +1,5 @@
 @import url(common.css);
+@import url(normalize.css);
 @import url(index_header.css);
 @import url(index_about_me.css);
 @import url(index_recent_projects.css);
