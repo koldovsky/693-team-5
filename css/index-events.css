@@ -1,7 +1,7 @@
 .events {
-    background-color: #0a0607;
     padding-top: 80px;
     padding-bottom: 80px;
+    background-color: #0a0607;
 }
 
 .events__title {
@@ -13,7 +13,6 @@
 }
 
 .events__logoWrapper {
-    height: 30px;
     width: 100%;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -21,7 +20,10 @@
 
 .events__logo {
     height: 100%;
-    width: 100%;
+    width: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .events__subtitle {
