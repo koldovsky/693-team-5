@@ -1,5 +1,15 @@
+.bgrnd_block_top {
+    background-image: url(../img/clients_img/top_wave.png);
+    height: 150px;
+    background-color: var(--white-color);
+}
+.clients{
+    background-color: var(--white-color);
+}
+
+
 .bgrnd_block {
-    background-image: url(../img/clients_img/block_divider.png);
+    background-image: url(../img/clients_img/bottom_wave.png);
     height: 150px;
     background-color: var(--main-color);
 }
