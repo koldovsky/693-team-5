@@ -8,7 +8,7 @@
     left: 0;
     padding: 10px;
 
-    background-color: #242121;
+    background-color: var(--black-color);
     z-index: 1000;
 }
 
