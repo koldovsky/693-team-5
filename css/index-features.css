@@ -9,7 +9,7 @@
 .features__item {
     width: 30%;
     text-align: center;
-    padding: 50px;
+    padding: 60px;
     border-radius: 50%;
     margin: 20px;
 
@@ -21,7 +21,7 @@
 
 .features__item:hover {
     cursor: pointer;
-    background-color: #292929;
+    background-color: var(--dark-grey);
     box-shadow: 30px 30px 30px #1b1b1b;
 
     transform: scale(1.1);

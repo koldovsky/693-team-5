@@ -4,7 +4,9 @@
 .intro {
     height: 1080px;
 
-    background-image: url(/img/intro_img/bg-intro.png);
+    background: var(--orange-color) url(/img/intro_img/bg-intro.png) center no-repeat;
+    background-size: cover;
+    
 }
 
 .intro__title {
