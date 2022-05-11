@@ -1,0 +1,5 @@
+.bgrnd_block {
+    background-image: url(../img/clients_img/block_divider.png);
+    height: 150px;
+    background-color: var(--main-color);
+}

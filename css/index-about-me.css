@@ -1,10 +1,10 @@
-.block{
+.block_bgrnd{
     background-image: url(../img/about_me/decoration.png);
-    height: 200px;
-    background-color: #f4c524;
+    height: 190px;
+    background-color:var(--yellow-color);
 }
 .about_me{
-    background-image: url(../img/about_me/5f772bf04d7077002204b9f5_optimized_1920.webp);
+    background-image: url(../img/about_me/about_bgrnd.webp);
     width: 100%;
     min-width: 992px;
     height: 770px;
