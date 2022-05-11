@@ -51,11 +51,3 @@ a {
     margin: 0 auto;
 }
 
-/* <!-- Blog--> */
-.blog {
-    background-color: #000;
-    color: #fff;
-} 
-.blog .blog-list {
-    text-decoration: none;
-}
