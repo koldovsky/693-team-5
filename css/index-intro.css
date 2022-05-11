@@ -4,7 +4,7 @@
 .intro {
     height: 1080px;
 
-    background: var(--orange-color) url(../img/intro_img/bg-intro.png);
+    background: var(--orange-color) url(img/intro_img/bg-intro.png) center no-repeat;
     background-size: cover;
     
 }
