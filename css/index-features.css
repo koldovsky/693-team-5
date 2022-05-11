@@ -13,7 +13,7 @@
     border-radius: 50%;
     margin: 20px;
 
-    background-color: #3c3c3c;
+    background-color: var(--very-dark-grey-color);
     box-shadow: 10px 20px 20px #424242;
     transition: transform 0.5s;
     overflow: hidden;
@@ -30,13 +30,13 @@
 .features__result {
     font-size: 30px;
     
-    color: #ff6200;
+    color: var(--features-result);
 }
 
 .features__title {
     font-size: 24px;
     letter-spacing: 4px;
-    color: #ffdd00;
+    color: var(--yellow-color);
     
     font-family: 'Crimson Pro', serif;
 }
@@ -45,5 +45,5 @@
     line-height: 1.6;
     font-size: 17px;
     font-weight: 400;
-    color: #5ad470;
+    color: var(--features-text);
 }
