@@ -18,6 +18,7 @@
 .reviews__title {
     font-size: 60px;
 
+    font-weight: 400;
     font-family: 'Crimson Pro', serif;
 }
 
@@ -27,7 +28,6 @@
     font-weight: 400;
 
     font-family: 'Crimson Pro', serif;
-
 }
 
 /* slider
