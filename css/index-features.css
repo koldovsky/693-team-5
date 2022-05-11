@@ -3,7 +3,7 @@
 .features {
     display: flex;
     flex-wrap: wrap;
-    margin: 200px 0;
+    margin: 200px 0 300px 0;
 }
 
 .features__item {
