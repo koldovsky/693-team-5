@@ -27,7 +27,6 @@
     font-weight: 400;
 
     font-family: 'Crimson Pro', serif;
-
 }
 
 /* slider
@@ -63,7 +62,7 @@
     border-radius: 100%;
 }
 
-.lider__title {
+.slider__title {
     font-size: 30px;
     font-family: 'Crimson Pro', serif;
 

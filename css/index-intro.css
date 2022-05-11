@@ -1,0 +1,25 @@
+/* intro
+=================== */
+
+.intro {
+    height: 1080px;
+
+    background-image: url(/img/intro_img/bg-intro.png);
+}
+
+.intro__title {
+    padding-top: 400px;
+    font-size: 140px;
+    font-weight: 700;
+    color: #fff;
+
+    font-family: 'Lora', serif;
+}
+
+.intro-sub__title {
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 400;
+
+    color: #fff;
+}

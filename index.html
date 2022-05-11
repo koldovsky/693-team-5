@@ -4,11 +4,8 @@ n<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name='viewport' content='width=device-width,initial-scale=1'/>
   <title>Artist</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Donegal+One&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=PT+Sans&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/5619db74ed.js"></script>
   <!-- favicon start -->
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/mstile-150x150.png">
@@ -93,6 +90,8 @@ n<!DOCTYPE html>
   </div>
   <!-- Maksym Lobodiuk end -->
   <!-- Milashenko Daria block start -->
+  <div class="block_bgrnd">
+  </div>
   <section class="about_me">
     <div class="container">
       <div class="revue">
@@ -131,11 +130,31 @@ n<!DOCTYPE html>
         <p class="gallery_sub_title">I'm so excited to invite everyone to my own gallery in New York!</p>
       </div>
       <div class="gallery_list">
-        <img class="gallery_item" src="img/img_gallery/Image1.png" alt="art">
-        <img class="gallery_item" src="img/img_gallery/image2.png" alt="art">
-        <img class="gallery_item" src="img/img_gallery/image3.png" alt="art">
-        <img class="gallery_item" src="img/img_gallery/image4.png" alt="art">
-        <img class="gallery_item" src="img/img_gallery/image5.png" alt="art">
+        <div class="gallery_item_1">
+          <button>
+            <img src="img/img_gallery/Image1.png" alt="art">
+          </button>
+        </div>
+        <div class="gallery_item_2">
+          <button>
+            <img src="img/img_gallery/image2.png" alt="art">
+          </button>
+        </div>
+        <div class="gallery_item_3">
+          <button>
+            <img src="img/img_gallery/image3.png" alt="art">
+          </button>
+        </div>
+        <div class="gallery_item_4">
+          <button>
+            <img src="img/img_gallery/image4.png" alt="art">
+          </button>
+        </div>
+        <div class="gallery_item_5">
+          <button>
+            <img src="img/img_gallery/image5.png" alt="art">
+          </button>
+        </div>
       </div>
     </div>
   </section>
@@ -146,8 +165,7 @@ n<!DOCTYPE html>
     <div class="container">
       <h2 class="events__title">Events</h2>
       <div class="events__logoWrapper">
-        <img class="events__logo" src="img/events/dot_line.svg"
-          alt="">
+        <img class="events__logo" src="img/events/dot_line.svg" alt="">
       </div>
       <p class="events__subtitle">
         You can see my art works at these upcoming exhibitions:
@@ -205,7 +223,7 @@ n<!DOCTYPE html>
     </div>
   </section>
   <!-- Andrii Lisitsyn end -->
-  
+
   <!-- Maksym Lobodiuk start -->
   <!-- reviews -->
   <div class="container">
@@ -219,7 +237,7 @@ n<!DOCTYPE html>
       <div class="slider">
         <div class="slider__item">
           <img class="slider__img" src="img/reviews_img/Julia-Klaus_img.jpg" alt="">
-          <div class="lider__title">Julia Klaus</div>
+          <div class="slider__title">Julia Klaus</div>
           <div class="slider__text">"Peter Smith is a budding young artist as well as a talented photographer.
             He is also very easy to work with on commercial projects. Can't wait to visit his own gallery!"
           </div>
@@ -227,7 +245,7 @@ n<!DOCTYPE html>
         </div>
         <div class="slider__item">
           <img class="slider__img" src="img/reviews_img/Alice-Stitch_img.jpg" alt="">
-          <div class="lider__title">Alice Stitch</div>
+          <div class="slider__title">Alice Stitch</div>
           <div class="slider__text">"I'm glad to finally see a fresh perspective on familiar things.
             I love Peter's way of expressing what he feels through his works. If you haven't seen his works, you
             should go to his gallery!"
@@ -236,7 +254,7 @@ n<!DOCTYPE html>
         </div>
         <div class="slider__item">
           <img class="slider__img" src="img/reviews_img/Amanda-Khoe_img.jpg" alt="">
-          <div class="lider__title">Amanda Khoe</div>
+          <div class="slider__title">Amanda Khoe</div>
           <div class="slider__text">"I really like all the paintings by Peter Smith.
             Ifirst saw his paintings at Tate Modern in London and was amazed by the bright colors and unusual concept.
             He's a young genius, no doubt!"
@@ -245,7 +263,7 @@ n<!DOCTYPE html>
         </div>
         <div class="slider__item">
           <img class="slider__img" src="img/reviews_img/Lucas-Schmidt_img.jpg" alt="">
-          <div class="lider__title">Lucas Schmidt</div>
+          <div class="slider__title">Lucas Schmidt</div>
           <div class="slider__text">"I'm not good at modern art, but intuitively I like what Peter Smith does.
             And even more, I like that he himself explains the concepts of his paintings, which many other artists do
             not."
@@ -283,11 +301,13 @@ n<!DOCTYPE html>
   <!--Mykola block Clients end-->
   <!-- Halyna Herega start-->
   <section class="blog">
-    <h2 class="blog-tittle">Blog</h2>
-    <img class="blog_logo" src="img/blog_img/img0.svg" alt="dot line">
-    <p class="blog-text">
-      I'm not just an artist, I also write articles sometimes, too.
-    </p>
+    <div class="container container-tittle">
+      <h2 class="blog-tittle">Blog</h2>
+      <img class="blog_logo" src="img/blog_img/img0.svg" alt="dot line">
+      <p class="blog-text">
+        I'm not just an artist, I also write articles sometimes, too.
+      </p>
+    </div>
     <div class="blog-list">
       <ul class="blog-list">
         <li class="blog-item">
@@ -412,7 +432,7 @@ n<!DOCTYPE html>
           <input class="form_input" name="phone" type="tel" placeholder="  Enter your phone number*" required>
           <input class="form_input" name="email" type="email" placeholder="  Enter your email*" required>
           <input class="form_input_message" name="message" type="text" placeholder="  Type your message">
-         <input class="form_input_submit" type="submit" value="Send a Request">
+          <input class="form_input_submit" type="submit" value="Send a Request">
         </form>
       </div>
     </div>
@@ -420,9 +440,6 @@ n<!DOCTYPE html>
   </div>
   <!-- Volodymyr Malenyk section "Contacts" end-->
   <!-- Mykola block Footer start-->
-  <div class="top-img">
-    <img class="top__img" src="img/clients_img/block_divider.png" alt="block divider">
-  </div>
   <footer class="footer">
     <div class="container">
       <nav class="footer__bottom-navigation">
