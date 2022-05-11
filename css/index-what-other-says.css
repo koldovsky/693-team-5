@@ -18,14 +18,12 @@
 .reviews__title {
     font-size: 60px;
 
-    font-weight: 400;
     font-family: 'Crimson Pro', serif;
 }
 
 .reviews-sub__title {
     margin-bottom: 70px;
     font-size: 20px;
-    font-weight: 400;
 
     font-family: 'Crimson Pro', serif;
 }
@@ -63,7 +61,7 @@
     border-radius: 100%;
 }
 
-.lider__title {
+.slider__title {
     font-size: 30px;
     font-family: 'Crimson Pro', serif;
 
