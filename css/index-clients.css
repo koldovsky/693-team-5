@@ -11,5 +11,5 @@
 .bgrnd_block {
     background-image: url(../img/clients_img/bottom_wave.png);
     height: 150px;
-    background-color: var(--main-color);
+    background-color: var(--white-color);
 }
