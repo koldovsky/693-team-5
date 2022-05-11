@@ -38,6 +38,8 @@ a {
     --grey-color: #b4b4b4;
     --very-dark-grey-color:#222222;
     --dark-grey: #505050;
+    --events-black: #101010;
+    --events-grey: rgba(71, 70, 70, 0.14);
     --footer-bottom: #716e6f;
     --footer-links: #f0bf4c;
 }
