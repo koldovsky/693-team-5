@@ -1,10 +1,19 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 100px 15px;
+}
+
 .contacts_information {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    width:500px;
+    margin: 15px;
 }
 
 .contacts_header {
+    max-width: 100%;
     font-family: 'Crimson Pro', serif;
     font-weight: 600;
     text-align: left;
@@ -23,6 +32,16 @@
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     font-weight: 100;
+    max-width:100%
+}
+.contacts_contacts_address,
+.contacts_contacts_hours,
+.contacts_contacts_contacts {
+display: flex;
+flex-direction: row;
+}
+.contacts_contacts_contacts{
+    margin-bottom: 15px;
 }
 
 .contacts_title {
@@ -30,6 +49,7 @@
     font-family: 'Crimson Pro', serif;
     font-size: 20px;
     font-weight: 600;
+    margin-right: 30px;
 }
 
 .contacts_address_of_NY,
@@ -49,62 +69,72 @@
     text-decoration: none;
 }
 
-.contacts_map {
-    margin-top: 30px;
+.contacts_tel:hover {
+    color: #F4C524;
 }
 
-.contacts_iframe {
-    width: 600px;
-    height: 300px;
+.contacts_mail:hover {
+    color: #F4C524;
+}
+
+.contacs_map {
+ display: flex;
 }
 
 .contacts_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #fff;
-    width: 600px;
-    height: 700px;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    padding: 50px;
-
+    margin: 15px;
+    padding: 30px;
+    width: 500px;
 }
 
 .contacts_form_header {
+    display: flex;
+    justify-content: center;
     color: rgb(80, 80, 80);
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     font-weight: 100;
     text-align: center;
     margin-bottom: 50px;
+    max-width:100%;
+}
+.contacts_form_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
 }
 
 .form_input {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     background-color: #f8f8f8;
-    width: 500px;
     height: 40px;
     border-radius: 20px;
     margin-bottom: 30px;
+    border: none;
+    max-width: 100%;
 }
 
 .form_input_message {
     display: flex;
-    justify-content: top;
     background-color: #f8f8f8;
-    width: 500px;
     height: 150px;
     border-radius: 20px;
     margin-bottom: 30px;
-    padding:0px 5px;
     outline: none;
     border: none;
 }
+
 .form_input_submit {
     display: flex;
     justify-content: center;
-    width: 500px;
     height: 40px;
-    margin-top: 80px;
+    margin-top: 60px;
     background-color: #F4C524;
     border-radius: 20px;
     color: #fff;
@@ -112,8 +142,29 @@
     align-items: center;
     outline: none;
     border: none;
+    max-width: 100%;
 }
+
 .form_input_submit:hover {
     background-color: #4f504df3;
     color: #fff;
 }
+/*
+@media (max-width: 768px) {
+    .contacts {
+      
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+    .contacts_information {
+        flex-direction: column;
+        margin-top: 100px;
+        max-width: 100%;
+    }
+
+    .contacts_form {
+        flex-direction: column;
+        max-width:100%;
+    }
+}*/
