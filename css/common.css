@@ -6,6 +6,7 @@ body {
     margin: 0;
 
     background-color: var(--main-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 *,
@@ -37,7 +38,7 @@ a {
     --grey-color: #b4b4b4;
     --dark-grey: #505050;
     --footer-bottom: #716e6f;
-    --footer-links: rgb(240, 191, 76)
+    --footer-links: #f0bf4c;
 }
 
 
