@@ -1,10 +1,71 @@
 /* <!-- Blog--> */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 .blog {
-    background-color: #000;
+    background: #0a0607;
     color: #fff;
-} 
+    background-position: absolute;
+        padding-top: 100px;
+            padding-bottom: 100px;
+}
+.container-tittle {
+    /*display: flex;*/
+    justify-content: center;
+margin-top: -30px;
+    text-align: center;
+    width: 1170px;
+}
+
+.blog-tittle {
+    font-size: 62px;
+               line-height: 1.1;
+        font-family: 'Crimson Pro', serif;
+        font-weight: 600;
+        text-transform: none;
+        text-decoration: none;
+        font-style: normal;
+        letter-spacing: -.02em;
+}
+.blog_logo {
+        /* padding-top: 2.73%;*/
+             object-fit: contain;
+            object-position: 50% 50%;
+                    background-color: transparent !important;
+                    height: 32px;
+}
+.blog-text {
+    margin-top: 20px;
+    color: #716e6f;
+    font-size: 20px;
+        font-family: PT Sans, sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        font-style: normal;
+            text-transform: none;
+}
+
 .blog .blog-list {
     text-decoration: none;
+}
+.blog-list {
+        display: flex;
+        text-align: center;
+        text-decoration: none;
+}
+.container {
+    width: 2212px;
+    padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    /*position: static;
+        display: flex;
+        font: inherit;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+        box-sizing: border-box;*/
 }
 
 /* колір p 
@@ -16,25 +77,24 @@ blog-item
 background: url(//res2.weblium.site/res/5f6de0e…/5f7ac50…_optimized_996.webp) 50% 50% / cover no-repeat;
     background-image: url(//res2.weblium.site/res/5f6de0e…/5f7ac50…_optimized_996.webp);
 
-    background: rgba(39, 39, 39, 0.92);
-    img1
-    display: flex;
-    margin: 7.5px;
-    max-width: 100%;
-    text-align: center;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-        box-sizing: border-box;
-        list-style: none;
-        -webkit-box-direction: normal;
-    word-wrap: break-word;
+background: rgba(39, 39, 39, 0.92);
+img1 display: flex;
+margin: 7.5px;
+max-width: 100%;
+text-align: center;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+box-sizing: border-box;
+list-style: none;
+-webkit-box-direction: normal;
+word-wrap: break-word;
 width: 70px;
-    border-radius: 50%;
-    filter: hue-rotate(108deg);
-    object-fit: cover;
-    object-position: 90.587% 3.154%;
+border-radius: 50%;
+filter: hue-rotate(108deg);
+object-fit: cover;
+object-position: 90.587% 3.154%;
 
     стиль рисочки
     style="height:1px;width:100%;background-color:rgba(255, 255, 255, 0.18)
