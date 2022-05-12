@@ -46,14 +46,20 @@ button img {
     cursor: pointer;
 }
 
-.gallery_list {
+.gallery_item_grid_1 {
     display: grid;
-    grid-template-columns: 0.7fr 0.33fr;
-    grid-template-rows: 0.5fr 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: auto;
+    grid-gap: 30px;
 }
 
 .gallery_item_1 {
     grid-row-start: 1;
     grid-row-end: 3;
+}
+
+.gallery_item_grid_2 {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 20px;
 }
