@@ -1,37 +1,52 @@
+@media (min-width: 420px) {   
+    .block_bgrnd .about_me .revue{
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
 .block_bgrnd{
     background-image: url(../img/about_me/decoration.png);
-    min-height: 180px;
+    height: 130px;
     background-color:var(--yellow-color);
- 
 }
 .about_me{
-    background-image: url(../img/about_me/background.webp);
-    background-position: center;
-    min-width: 992;
-    min-height: 770px;
+    background-image: url(../img/about_me/about_bgrnd.webp);
+    height: 770px;
     background-repeat: no-repeat;
-    background-color: var(--yellow-color);
+    background-position: center;
     
 }
 .revue{
-    padding: -100px 70px 90px 70px;
-    margin: -100px 120px 320px 660px
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 970px;
+    right: 80px;
+    top: 80px;
+    bottom: 100px;
+    position: sticky;
 }
+
 .about_me_title{
     font-size: 60px;
     font-family: "Crimson Pro", serif;
-    font-weight: 500; 
+    font-weight: 700px; 
+    
 }
 .about_me_subtitle{
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: 400px;
     font-family: sans-serif;
     line-height: 1.5;
 }
 .about_me__text{
-font-size: 17px;
+font-size: 18px;
 font-family: 'Roboto', sans-serif; 
-font-weight: 400;
+font-weight: 400px;
 line-height: 1.5;
 }
 a{
