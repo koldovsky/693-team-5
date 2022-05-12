@@ -2,11 +2,29 @@
     background-image: url(../img/clients_img/top_wave.png);
     height: 150px;
     background-color: var(--white-color);
+    margin-bottom: -50px;
 }
 .clients{
     background-color: var(--white-color);
 }
+.clients__title {
+    font-size: 60px;
+    font-family:'Roboto', sans-serif;
+    font-weight:700 ;
+}
+.dot_line_illustration{
+    width: 130px;
+}
+.text-content{
+    font-size: 20px;
+    font-family:'Crimson Pro', serif; 
+    font-weight:500 ;
+}
+.text-block{
+    font-family:'Crimson Pro', sans-serif ;
+    font-weight: 500;
 
+}
 
 .bgrnd_block {
     background-image: url(../img/clients_img/bottom_wave.png);

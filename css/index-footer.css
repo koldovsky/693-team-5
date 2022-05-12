@@ -16,6 +16,7 @@
     margin: 5px;
     text-decoration: none;
     color: var(--white-color);
+
 }
 
 .footer__bottom-navigation-links a:hover {
@@ -30,7 +31,7 @@
 
 .link-img {
     font-size: 30px;
-    
+
 }
 
 
