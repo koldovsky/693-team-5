@@ -4,26 +4,39 @@
     background-color: var(--white-color);
     margin-bottom: -50px;
 }
-.clients{
+
+.clients {
     background-color: var(--white-color);
+
 }
+
+
+
 .clients__title {
     font-size: 60px;
-    font-family:'Roboto', sans-serif;
-    font-weight:700 ;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    color: var(--black-color)
 }
-.dot_line_illustration{
+
+.dot_line_illustration {
     width: 130px;
 }
-.text-content{
-    font-size: 20px;
-    font-family:'Crimson Pro', serif; 
-    font-weight:500 ;
-}
-.text-block{
-    font-family:'Crimson Pro', sans-serif ;
-    font-weight: 500;
 
+.text-content {
+    font-size: 20px;
+    font-family: PT sans, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #777
+}
+
+.text-block {
+    font-size: 17px;
+    font-family: PT sans, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #777
 }
 
 .bgrnd_block {
