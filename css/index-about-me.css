@@ -45,8 +45,10 @@ a{
 } 
 @media (max-width: 420px) {
     .revue{
-        justify-content: center;
-        align-items:center;
+        justify-content: flex-end;
+        align-items:flex-start;
+        flex-basis: 25%;
+        flex-wrap: wrap;
     }
     img{
         max-width: 100%;
@@ -55,8 +57,10 @@ a{
 } 
 @media (max-width: 900px) {
     .revue{
-        justify-content: center;
-        align-items:center;
+        justify-content: flex-end;
+        align-items:flex-start;
+        flex-basis: 25%;
+        flex-wrap: wrap;
     }
     img{
         max-width: 100%;
@@ -65,11 +69,13 @@ a{
 } 
 @media (max-width: 1200px) {
     .revue{
-        justify-content: center;
-        align-items:center;
+        justify-content: flex-end;
+        align-items:flex-start;
+        flex-basis: 25%;
+        flex-wrap: wrap;
     }
     img{
         max-width: 100%;
         height: auto;
     }
-} 
+}
