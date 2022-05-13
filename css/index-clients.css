@@ -7,7 +7,10 @@
 
 .clients {
     background-color: var(--white-color);
+}
 
+.clients__inner {
+    display: flex;
 }
 
 
@@ -28,7 +31,7 @@
     font-family: PT sans, sans-serif;
     font-weight: 400;
     line-height: 1.5;
-    color: #777
+    color: var(--clients-text)
 }
 
 .text-block {
@@ -36,11 +39,19 @@
     font-family: PT sans, sans-serif;
     font-weight: 400;
     line-height: 1.5;
-    color: #777
+    color: var(--clients-text)
+}
+
+.logo {
+    width: 8%;
+}
+
+.illustration {
+    width: 50%;
 }
 
 .bgrnd_block {
-    background-image: url(../img/clients_img/bottom_wave.png);
+    background-image: url(../img/clients_img/bottom.png);
     height: 150px;
     background-color: var(--white-color);
 }
