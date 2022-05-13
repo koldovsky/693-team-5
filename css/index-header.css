@@ -48,3 +48,22 @@
     transition: .2s linear;
     color: var(--footer-links);
 }
+
+/* media
+=============================== */
+
+@media (max-width: 1200px) {
+    .nav {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav {
+        display: none;
+    }
+
+    .header__logo {
+        margin: auto;
+    }
+}
