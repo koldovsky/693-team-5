@@ -1,8 +1,15 @@
+@media (min-width: 901px){
+.container {
+        max-width: 100%;
+        padding: 0 10px;
+        margin: auto;
+    }
 .contacts {
     display: flex;
     justify-content: center;
     flex-direction: row;
     padding: 100px 15px;
+    max-width:100%;
 }
 
 .contacts_information {
@@ -79,6 +86,9 @@ flex-direction: row;
 
 .contacs_map {
  display: flex;
+ justify-content: center;
+ max-width: 100%;
+ max-height: 350px;
 }
 
 .contacts_form {
@@ -134,7 +144,7 @@ flex-direction: row;
     display: flex;
     justify-content: center;
     height: 40px;
-    margin-top: 60px;
+    margin-top: 30px;
     background-color: #F4C524;
     border-radius: 20px;
     color: #fff;
@@ -149,22 +159,328 @@ flex-direction: row;
     background-color: #4f504df3;
     color: #fff;
 }
-/*
-@media (max-width: 768px) {
+}
+
+@media (min-width: 420px) and (max-width:900px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+        margin: auto;
+    }
     .contacts {
-      
-        flex-direction: row;
-        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 100px 15px;
     }
-
+    
     .contacts_information {
+        display: flex;
         flex-direction: column;
-        margin-top: 100px;
+        justify-content: center;
+        max-width:100%;
+        margin: 15px;
+    }
+    
+    .contacts_header {
+        max-width: 100%;
+        font-family: 'Crimson Pro', serif;
+        font-weight: 600;
+        text-align: left;
+        text-transform: none;
+        font-size: 48px;
+        color: #0a0607;
+    }
+    
+    #dot_line_illustration {
+        display: block;
+        width: 100px;
+    }
+    
+    .contacts_visit {
+        color: rgb(80, 80, 80);
+        font-family: 'PT Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        max-width:100%
+    }
+    .contacts_contacts_address,
+    .contacts_contacts_hours,
+    .contacts_contacts_contacts {
+    display: flex;
+    flex-direction: column;
+    }
+    .contacts_contacts_contacts{
+        margin-bottom: 15px;
+    }
+    
+    .contacts_title {
+        color: rgb(54, 151, 236);
+        font-family: 'Crimson Pro', serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-right: 30px;
+    }
+    
+    .contacts_address_of_NY,
+    .contacts_hours_to_work {
+        color: rgba(0, 0, 0, 0.6);
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        line-height: 1.75;
+    }
+    
+    .contacts_tel,
+    .contacts_mail {
+        color: #474646;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        line-height: 1.75;
+        text-decoration: none;
+    }
+    
+    .contacts_tel:hover {
+        color: #F4C524;
+    }
+    
+    .contacts_mail:hover {
+        color: #F4C524;
+    }
+    
+    .contacs_map {
+     display: flex;
+     justify-content: center;
+     max-width:100%;
+     max-height: 350px;
+    }
+    
+    .contacts_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+        margin: 15px;
+        padding: 30px;
         max-width: 100%;
     }
-
-    .contacts_form {
-        flex-direction: column;
+    
+    .contacts_form_header {
+        display: flex;
+        justify-content: center;
+        color: rgb(80, 80, 80);
+        font-family: 'PT Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+        margin-bottom: 50px;
         max-width:100%;
     }
-}*/
+    .contacts_form_list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+    }
+    
+    .form_input {
+        display: flex;
+        justify-content: center;
+        background-color: #f8f8f8;
+        height: 40px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        border: none;
+        max-width: 100%;
+    }
+    
+    .form_input_message {
+        display: flex;
+        background-color: #f8f8f8;
+        height: 150px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        outline: none;
+        border: none;
+    }
+    
+    .form_input_submit {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        margin-top: 60px;
+        background-color: #F4C524;
+        border-radius: 20px;
+        color: #fff;
+        transition: transform 0.5s;
+        align-items: center;
+        outline: none;
+        border: none;
+        max-width: 100%;
+    }
+    
+    .form_input_submit:hover {
+        background-color: #4f504df3;
+        color: #fff;
+    }
+   }
+   @media (max-width: 419px) {
+    .container {
+        max-width: 100%;
+        padding: 0 5px;
+        margin: auto;
+    }
+    .contacts {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 100px 5px;
+    }
+    
+    .contacts_information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width:100%;
+        margin: 10px;
+    }
+    
+    .contacts_header {
+        max-width: 100%;
+        font-family: 'Crimson Pro', serif;
+        font-weight: 800;
+        text-align: left;
+        text-transform: none;
+        font-size: 36px;
+        color: #0a0607;
+    }
+    
+    #dot_line_illustration {
+        display: block;
+        width: 100px;
+    }
+    
+    .contacts_visit {
+        color: rgb(80, 80, 80);
+        font-family: 'PT Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        max-width:100%
+    }
+    .contacts_contacts_address,
+    .contacts_contacts_hours,
+    .contacts_contacts_contacts {
+    display: flex;
+    flex-direction: column;
+    }
+    .contacts_contacts_contacts{
+        margin-bottom: 15px;
+    }
+    
+    .contacts_title {
+        color: rgb(54, 151, 236);
+        font-family: 'Crimson Pro', serif;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .contacts_address_of_NY,
+    .contacts_hours_to_work {
+        color: rgba(0, 0, 0, 0.6);
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        line-height: 1.75;
+    }
+    
+    .contacts_tel,
+    .contacts_mail {
+        color: #474646;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        line-height: 1.75;
+        text-decoration: none;
+    }
+    
+    .contacts_tel:hover {
+        color: #F4C524;
+    }
+    
+    .contacts_mail:hover {
+        color: #F4C524;
+    }
+    
+    .contacs_map {
+     display: flex;
+     justify-content: center;
+     max-width:100%;
+     max-height: 350px;
+    }
+    
+    .contacts_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+        margin: 10px;
+        padding: 15px;
+        max-width: 100%;
+    }
+    
+    .contacts_form_header {
+        display: flex;
+        justify-content: center;
+        color: rgb(80, 80, 80);
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 100;
+        text-align: center;
+        margin-bottom: 25px;
+        max-width:100%;
+    }
+    .contacts_form_list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+    }
+    
+    .form_input {
+        display: flex;
+        justify-content: center;
+        background-color: #f8f8f8;
+        height: 40px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        border: none;
+        max-width: 100%;
+    }
+    
+    .form_input_message {
+        display: flex;
+        background-color: #f8f8f8;
+        height: 100px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        outline: none;
+        border: none;
+    }
+    
+    .form_input_submit {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        margin-top: 30px;
+        background-color: #F4C524;
+        border-radius: 20px;
+        color: #fff;
+        transition: transform 0.5s;
+        align-items: center;
+        outline: none;
+        border: none;
+        max-width: 100%;
+    }
+    
+    .form_input_submit:hover {
+        background-color: #4f504df3;
+        color: #fff;
+    }  
+   }
