@@ -1,23 +1,15 @@
-@media (min-width: 420px) {   
-    .block_bgrnd .about_me .revue{
-        justify-content: space-evenly;
-        align-items: stretch;
-    }
-    img{
-        max-width: 100%;
-        height: auto;
-    }
-}
 .block_bgrnd{
     background-image: url(../img/about_me/decoration.png);
     height: 130px;
     background-color:var(--yellow-color);
+    margin-bottom: -50px;
 }
 .about_me{
     background-image: url(../img/about_me/about_bgrnd.webp);
     height: 770px;
     background-repeat: no-repeat;
     background-position: center;
+    
     
 }
 .revue{
@@ -30,7 +22,6 @@
     bottom: 100px;
     position: sticky;
 }
-
 .about_me_title{
     font-size: 60px;
     font-family: "Crimson Pro", serif;
@@ -38,9 +29,9 @@
     
 }
 .about_me_subtitle{
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 400px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
 .about_me__text{
@@ -51,4 +42,40 @@ line-height: 1.5;
 }
 a{
     color: var(--white-color);
-}  
+} 
+@media (max-width: 420px) {
+    .revue{
+        justify-content: flex-end;
+        align-items:flex-start;
+        flex-basis: 25%;
+        flex-wrap: wrap;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+} 
+@media (max-width: 900px) {
+    .revue{
+        justify-content: flex-end;
+        align-items:flex-start;
+        flex-basis: 25%;
+        flex-wrap: wrap;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+} 
+@media (max-width: 1200px) {
+    .revue{
+        justify-content: flex-end;
+        align-items:flex-start;
+        flex-basis: 25%;
+        flex-wrap: wrap;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
