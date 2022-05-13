@@ -26,7 +26,8 @@
   transition: 0.2s;
 }
 
-@media (max-width: 420px) {
+
+@media (max-width: 1200px) {
   .faq__collapsible {
     flex-direction: row;
     justify-content: flex-end;
@@ -42,7 +43,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 420px) {
   .faq__collapsible {
     flex-direction: row;
     justify-content: flex-end;
