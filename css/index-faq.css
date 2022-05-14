@@ -10,6 +10,10 @@
   justify-content: space-between;
 }
 
+.faq__dotline {
+  width: 17%;
+}
+
 .faq__collapsible {
   display: flexbox;
     background-color: #F4C524;

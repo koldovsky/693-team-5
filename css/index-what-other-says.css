@@ -10,12 +10,13 @@
 }
 
 .reviews__img {
-    width: 180px;
-    margin: 30px 0 20px 0;
+    width: 150px;
+    margin: auto;
 }
 
 .reviews__title {
     font-size: 60px;
+    margin-bottom: 20px;
 
     font-family: 'Crimson Pro', serif;
 }
@@ -38,7 +39,8 @@
 }
 
 .slider__item {
-    width: 30%;
+    width: 370px;
+    height: 500px;
     text-align: center;
     padding: 40px 40px 20px 40px;
     margin: 10px;
@@ -54,9 +56,9 @@
 .slider__img {
     width: 38%;
     height: 25%;
+    margin: auto;
+    margin-bottom: 30px;
     object-fit: cover;
-
-    margin-bottom: 20px;
 
     border-radius: 100%;
 }

@@ -10,6 +10,9 @@
     background-color: var(--black-color);
 }
 
+.footer__bottom-navigation-logo {
+    width: 147px;
+}
 
 .footer__bottom-navigation-links a {
     font-size: 18px;

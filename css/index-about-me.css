@@ -25,6 +25,10 @@
     font-family: "Crimson Pro", serif;
     font-weight: 700px; 
 }
+
+.about_me_logo {
+    width: 130px;
+}
 .about_me_subtitle{
     font-size: 20px;
     font-weight: 400px;
