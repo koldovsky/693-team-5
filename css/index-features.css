@@ -8,6 +8,7 @@
 
 
 .features__item {
+    display: grid;
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -47,4 +48,27 @@
     font-size: 15px;
     font-weight: 400;
     color: var(--features-text);
+}
+
+/* media
+=========================== */
+
+@media (max-width: 1286px) {
+    .features__result {
+        font-size: 18px;
+    }
+    
+    .features__title {
+        font-size: 18px;
+    }
+
+    .features__text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .features {
+        flex-wrap: wrap;
+    }
 }
