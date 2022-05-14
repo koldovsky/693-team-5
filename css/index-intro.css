@@ -28,28 +28,3 @@
 
 /* media
 ============================= */
-
-@media (max-width: 900px) {
-
-    .intro {
-        text-align: center;
-    }
-
-    .intro__title {
-        font-size: 80px;
-    }
-
-    .intro-sub__title {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 487px) {
-    .intro {
-        text-align: center;
-    }
-    
-    .intro__title {
-        font-size: 68px;
-}
-}

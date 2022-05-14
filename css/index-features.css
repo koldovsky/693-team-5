@@ -48,18 +48,3 @@
     font-weight: 400;
     color: var(--features-text);
 }
-
-@media (max-width: 1220px) {
-    .features {
-        flex-wrap: wrap;
-    }
-}
-
-@media (max-width: 1200px) {
-    .features {
-        display: grid;
-        grid-template-columns: 1fr;
-        position: relative;
-        left: 35%;
-    }
-}
