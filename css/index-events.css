@@ -1,7 +1,7 @@
 .events {
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: var(--black-color);
+    background-color: var(--events-black);
 }
 
 .events__title {
@@ -55,6 +55,7 @@
 }
 
 .events__card_rightColumn {
+    padding-left: 20px;
     flex-shrink: 3;
 }
 
@@ -63,7 +64,7 @@
     width: 120px;
     border-radius: 50%;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
     object-fit: cover;
 }
 
@@ -99,5 +100,15 @@
 }
 
 .events__card_right {
-    background-color: var(--events-black);
+    background-color: var(--events-dark-black);
+}
+
+.events__top {
+    background-image: url(../img/events/events_top.png);
+    height: 130px;
+}
+
+.events__bottom {
+    background-image: url(../img/events/events_bottom.png);
+    height: 130px;
 }
