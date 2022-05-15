@@ -50,7 +50,7 @@ button img {
 
 .gallery_item_grid_1 {
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 0.498fr;
     grid-template-rows: auto;
     grid-gap: 30px;
 }
@@ -63,5 +63,5 @@ button img {
 .gallery_item_grid_2 {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
 }
