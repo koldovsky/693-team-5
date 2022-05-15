@@ -32,8 +32,10 @@
     align-items: center;
 }
 
-.link-img {
+.link-icon {
     font-size: 30px;
+    color:var(--white-color);
+    margin: 5px;
 
 }
 
