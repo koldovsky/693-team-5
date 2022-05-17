@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Artist</title>
@@ -21,6 +21,10 @@
 </head>
 
 <body>
+<!-- preloader start -->
+<div id="preloader" class="visible"></div>
+<!-- preloader end -->
+
   <!-- Maksym Lobodiuk start -->
   <!-- header -->
   <header class="header">
@@ -458,6 +462,24 @@
     </div>
   </footer>
   <!-- Mykola block Footer end-->
+
+<!-- preloader script start -->
+<script>
+  function loadData() {
+    return new Promise((resolve, reject) => {
+      setTimeout(resolve, 2000);
+    })
+  }
+  
+  loadData()
+    .then(() => {
+      let preloaderEl = document.getElementById('preloader');
+      preloaderEl.classList.add('hidden');
+      preloaderEl.classList.remove('visible');
+    });
+  </script>
+<!-- preloader script end -->
+
 </body>
 
 </html>
