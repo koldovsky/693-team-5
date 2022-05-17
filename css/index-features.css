@@ -15,30 +15,21 @@
     text-align: center;
     margin: 30px;
 
-    background-color: var(--very-dark-grey-color);
     transition: transform 0.5s;
     overflow: hidden;
-
 }
 
-.features__item:hover {
-    cursor: pointer;
-    background-color: var(--features-hover);
-    box-shadow: 30px 30px 30px var(--black-color);
-
-    transform: scale(1.1);
-}
 
 .features__result {
-    font-size: 30px;
-    
-    color: var(--features-result);
+    font-size: 50px;
+    margin-bottom: -10px;
+    color: var(--black);
 }
 
 .features__title {
     font-size: 24px;
     letter-spacing: 4px;
-    color: var(--yellow-color);
+    color: var(--black);
     
     font-family: 'Crimson Pro', serif;
 }
@@ -47,7 +38,7 @@
     line-height: 1.5;
     font-size: 15px;
     font-weight: 400;
-    color: var(--features-text);
+    color: var(--black);
 }
 
 /* media
