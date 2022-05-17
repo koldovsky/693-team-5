@@ -7,7 +7,7 @@
 .footer {
     padding-top: 30px;
     width: 100%;
-    background-color: var(--black-color);
+    background-color: var(--footer-back);
 }
 
 .footer__bottom-navigation {
