@@ -10,6 +10,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.about_me_logo{
+    width: 150px;
+}
 .revue{
     width: 500px;
     height: 200px;
