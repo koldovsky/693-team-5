@@ -21,9 +21,9 @@
 </head>
 
 <body>
-<!-- preloader start -->
-<div id="preloader" class="visible"></div>
-<!-- preloader end -->
+  <!-- preloader start -->
+  <div id="preloader" class="visible"></div>
+  <!-- preloader end -->
 
   <!-- Maksym Lobodiuk start -->
   <!-- header -->
@@ -124,10 +124,12 @@
       <div class="gallery_grids">
         <div class="gallery_item_grid_1">
           <div class="gallery_item_1">
-            <img src="img/img_gallery/Image1.png" alt="art">
+            <img class="gallery_img_1" src="img/img_gallery/Image1.png" alt="art">
           </div>
           <div class="gallery_item_2">
             <img src="img/img_gallery/image2.png" alt="art">
+          </div>
+          <div class="gallery_item_3">
             <img src="img/img_gallery/image3.png" alt="art">
           </div>
         </div>
@@ -438,7 +440,7 @@
   <footer class="footer">
     <div class="container">
       <nav class="footer__bottom-navigation">
-        <img class="footer__bottom-navigation-logo"  src="img/intro_img/logo.svg" alt="Peter Smith"><br>
+        <img class="footer__bottom-navigation-logo" src="img/intro_img/logo.svg" alt="Peter Smith"><br>
         <div class="footer__bottom-navigation-links">
           <a class="link" href="#section_about_me">About me</a>
           <a class="link" href="#Projects.html">Projects</a>
@@ -463,22 +465,22 @@
   </footer>
   <!-- Mykola block Footer end-->
 
-<!-- preloader script start -->
-<script>
-  function loadData() {
-    return new Promise((resolve, reject) => {
-      setTimeout(resolve, 1000);
-    })
-  }
-  
-  loadData()
-    .then(() => {
-      let preloaderEl = document.getElementById('preloader');
-      preloaderEl.classList.add('hidden');
-      preloaderEl.classList.remove('visible');
-    });
+  <!-- preloader script start -->
+  <script>
+    function loadData() {
+      return new Promise((resolve, reject) => {
+        setTimeout(resolve, 1000);
+      })
+    }
+
+    loadData()
+      .then(() => {
+        let preloaderEl = document.getElementById('preloader');
+        preloaderEl.classList.add('hidden');
+        preloaderEl.classList.remove('visible');
+      });
   </script>
-<!-- preloader script end -->
+  <!-- preloader script end -->
 </body>
 
 </html>
