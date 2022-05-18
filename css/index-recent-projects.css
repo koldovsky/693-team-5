@@ -145,3 +145,7 @@ margin: auto;
     display: block;
     padding: 39px 0px 39px 0px;
 }
+
+.recent-projects-bottom {
+    background-color: var(--main-color);
+}
