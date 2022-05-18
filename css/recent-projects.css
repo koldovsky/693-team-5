@@ -4,6 +4,7 @@
     font-weight: 600;
     color: var(--third-section-header-color);
     font-family: 'Crimson Pro', serif;
+    margin-bottom: -10px;
 }
 
 .underline {
