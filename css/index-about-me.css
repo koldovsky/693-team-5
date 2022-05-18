@@ -40,7 +40,9 @@ font-family: 'Roboto', sans-serif;
 font-weight: 400px;
 line-height: 1.5;
 }
-.a{
+a{
+    font-size: 20px;
+    margin-right: 10px;
     color: var(--white-color);
 } 
 @media (max-width: 1200px) {
