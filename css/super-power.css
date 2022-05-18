@@ -1,0 +1,27 @@
+.third-section-small-header {
+    font-size: 32px;
+    font-family: 'Crimson Pro', serif;
+    color: var(--third-section-header-color);
+}
+
+.date{
+    font-size: 15px;
+}
+
+.super-power-img {
+    display: block;
+    width: 100%;
+    max-width: 630px;
+    max-height: 410px;
+}
+
+.super-power{
+padding: 58px;
+max-width: 1100px;
+margin: auto;
+}
+
+.super-power-only-text {
+    display: block;
+    padding: 39px 0px 39px 0px;
+}
