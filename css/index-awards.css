@@ -8,7 +8,7 @@
 }
 .awards{
     background-color: #0a0607;
-    height: 500px;
+    height: 460px;
     padding-top: 30px;
 }
 .awards_{
@@ -30,17 +30,23 @@
     font-family: 'Roboto', sans-serif;
 }
 .awards_block{
-    color: var(--white-color);
+    color: var(--yellow-color);
     font-size: 20px;
     font-weight: 400px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     height: 200px;
-    width: 200px;
-    margin: 50px;
-    justify-content: end;
+    width: 180px;
+    margin: 50px; 
 }
 @media (max-width: 900px){
+    .awards{
+        height: 360px;
+    }
+    .awards_{
+        height: 200px;
+        width: 170px;
+    }
     .awards_title{
         font-size: 50px;
     }
@@ -49,14 +55,30 @@
     }
     .awards_block{
         font-size: 15px;
+        margin: 20px;
+        width: 150px;
     }
 }
 @media (max-width: 420px){
     ._awards{
         display: grid;
         grid-template-rows: auto;
+        justify-content: center;
     }
     .awards{
-        height: 1200px;
+        height: 1090px;
+    }
+    .awards_{
+        text-align: center;
+        height: 200px;
+        width: 180px;
+        margin: 20px;
+    }    
+    .awards_title{
+        font-size: 45px;
+        font-weight: 400px;
+    }
+    .awards_h3{
+        font-size: 16px;
     }
 }
