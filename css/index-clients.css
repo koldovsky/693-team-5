@@ -9,16 +9,19 @@
     background-color: var(--white-color);
     padding: 30px 15px 30px 15px;
 }
-@media(min-width:600px){
+
+@media(min-width:600px) {
     .clients {
-    padding: 70px;
+        padding: 70px;
     }
 }
+
 .clients__inner {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     padding: 30px 20px 30px 20px;
 }
+
 @media(min-width:600px) {
     .clients__inner {
         display: flex;
@@ -30,7 +33,7 @@
 
 .clients_text {
     display: block;
-   
+
 }
 
 .clients__title {
@@ -60,21 +63,26 @@
     color: var(--clients-text)
 }
 
-.logo {
-    width: 25%;
+.logo_carousel {
+    width: 100%;
     display: flex;
     flex-direction: row;
 
 }
 
+.slide {
+    margin: 20px;
+}
+
 .illustration {
-    width:100%;
+    width: 100%;
     margin-top: 50px;
     padding-left: 5px;
     padding-right: 5px;
 }
+
 @media(min-width: 600px) {
-    .illustration{
+    .illustration {
         width: 50%;
     }
 }
