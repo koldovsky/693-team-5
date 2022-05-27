@@ -6,6 +6,13 @@
 ._awards{
     display: flex;
 }
+.carousel_awards{
+    height: 400px;
+}
+.carousel_awards img{
+    width: 40%;
+    margin: auto;
+}
 .awards{
     background-color: #0a0607;
     height: 460px;
