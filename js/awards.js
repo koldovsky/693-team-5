@@ -11,18 +11,11 @@
     const slidesAwardContainer = document.querySelector(".carousel_awards");
     slidesAwardContainer.innerHTML = slidesAward[actualSlide];
     if (window.innerWidth < 400) {
-      const secondSlide =
-        actualSlide + 1 >= slidesAward.length ? 0 : actualSlide + 1;
+      const secondSlide = actualSlide + 1 >= slidesAward.length ? 0 : actualSlide + 1;
       slidesAwardContainer.innerHTML += slidesAward[secondSlide];
-      if (window.innerWidth < 600) {
-        const secondSlide =
-          actualSlide + 1 >= slidesAward.length ? 0 : actualSlide + 1;
+      if (window.innerWidth < 1000) {
+        const secondSlide = actualSlide + 1 >= slidesAward.length ? 0 : actualSlide + 1;
         slidesAwardContainer.innerHTML += slidesAward[secondSlide];
-        if (window.innerWidth < 1000) {
-          const thirdSlide =
-            secondSlide + 1 >= slidesAward.length ? 0 : secondSlide + 1;
-          slidesAwardContainer.innerHTML += slidesAward[thirdSlide];
-        }
       }
     }
   }

@@ -62,7 +62,7 @@
     }
     .slideAward{
         font-size: 15px;
-        margin: 40px;
+        margin: 20px;
         width: 350px;
     }
 }
@@ -92,6 +92,6 @@
         height: 100px;
     }
     .carousel_awards img{
-        width: 100%; 
+        width: 60%; 
     }
 } 
