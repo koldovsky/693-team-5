@@ -6,7 +6,7 @@
                 '<div class="slide"><img src="img/clients_img/friendlys_logo.svg" alt="friendlys label"></div>'
     ];
     
-     let currentSlide = 0;
+    let currentSlide = 0;
     
     function renderCarousel() {
         const slideContainer = document.querySelector('.logo_carousel');
@@ -18,16 +18,16 @@
                 const thirdSlide = secondSlide +1 >= slides.length ? 0 : secondSlide +1;
             slideContainer.innerHTML += slides[thirdSlide];
             }
-         }
-         }
-         function nextSlide () {
+        }
+    }
+        function nextSlide () {
             currentSlide = currentSlide +1 >= slides.length ? 0 : currentSlide +1;
             renderCarousel();
-         }
+        }
         setInterval(nextSlide, 4000);
-     renderCarousel();
+    renderCarousel();
         window.addEventListener('resize', renderCarousel);
-    })();
+})();
     
 
 
