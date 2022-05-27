@@ -29,3 +29,15 @@
         window.addEventListener('resize', renderCarousel);
     })();
     
+
+
+
+
+
+
+
+
+
+
+
+    
