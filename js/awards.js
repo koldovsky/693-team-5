@@ -10,10 +10,10 @@
   function reviveCarousel() {
     const slidesAwardContainer = document.querySelector(".carousel_awards");
     slidesAwardContainer.innerHTML = slidesAward[actualSlide];
-    if (window.innerWidth < 400) {
+    if (window.innerWidth > 600) {
       const secondSlide = actualSlide + 1 >= slidesAward.length ? 0 : actualSlide + 1;
       slidesAwardContainer.innerHTML += slidesAward[secondSlide];
-      if (window.innerWidth < 1000) {
+      if (window.innerWidth > 1000) {
         const secondSlide = actualSlide + 1 >= slidesAward.length ? 0 : actualSlide + 1;
         slidesAwardContainer.innerHTML += slidesAward[secondSlide];
       }
