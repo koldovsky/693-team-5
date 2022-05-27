@@ -8,23 +8,29 @@
   let actualSlide = 0;
 
   function reviveCarousel() {
-    const slidesAwardContainer = document.querySelector('.carousel_awards');
+    const slidesAwardContainer = document.querySelector(".carousel_awards");
     slidesAwardContainer.innerHTML = slidesAward[actualSlide];
-    if(window.innerWidth > 600) {
-      const secondSlide = actualSlide +1 >= slidesAward.length ? 0 : actualSlide +1;
+    if (window.innerWidth < 400) {
+      const secondSlide =
+        actualSlide + 1 >= slidesAward.length ? 0 : actualSlide + 1;
       slidesAwardContainer.innerHTML += slidesAward[secondSlide];
-      if(window.innerWidth > 1000) {
-          const thirdSlide = secondSlide +1 >= slidesAward.length ? 0 : secondSlide +1;
+      if (window.innerWidth < 600) {
+        const secondSlide =
+          actualSlide + 1 >= slidesAward.length ? 0 : actualSlide + 1;
+        slidesAwardContainer.innerHTML += slidesAward[secondSlide];
+        if (window.innerWidth < 1000) {
+          const thirdSlide =
+            secondSlide + 1 >= slidesAward.length ? 0 : secondSlide + 1;
           slidesAwardContainer.innerHTML += slidesAward[thirdSlide];
+        }
       }
-   }
+    }
   }
   function followingSlide() {
-    actualSlide =
-      actualSlide + 1 >= slidesAward.length ? 0 : actualSlide + 1;
+    actualSlide = actualSlide + 1 >= slidesAward.length ? 0 : actualSlide + 1;
     reviveCarousel();
   }
   setInterval(followingSlide, 4000);
   reviveCarousel();
-  window.addEventListener('resize', reviveCarousel);
+  window.addEventListener("resize", reviveCarousel);
 })();
