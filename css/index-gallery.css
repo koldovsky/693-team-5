@@ -35,6 +35,9 @@
     width: 100%;
     cursor: pointer;
 }
+.gallery_grids img:hover{
+    transform: scale(1.05);
+}
 .gallery_img_1{
     height:100%;
 }
