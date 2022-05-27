@@ -1,7 +1,7 @@
 (function (){
 const gallery_grids = document.querySelectorAll(".gallery_grids img");
 const modal = document.querySelector(".modal");
-const modalimg = document.querySelector(".modalimg");
+const modalimg = document.querySelector(".modal-img");
 const close = document.querySelector(".close");
 
 gallery_grids.forEach(image => {

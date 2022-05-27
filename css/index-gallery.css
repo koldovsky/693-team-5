@@ -80,9 +80,9 @@
     align-items: center;
 }
 
-.modalimg {
-    width: 80%;
-    max-width: 700px;
+.modal-img {
+    width: 85%;
+    max-width: 800px;
 }
 
 .close {
