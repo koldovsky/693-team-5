@@ -429,22 +429,6 @@
           etc.
         </p>
       </div><br>
-      <script>
-        var coll = document.getElementsByClassName("faq__collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
-        }
-      </script>
     </div>
     <div class="faq__bot__img">
       <img class="faq__bot__img" alt="faq-bottom" src="img/img_faq/bot_faq_optimized_1200_bot.png">
@@ -551,6 +535,7 @@
     >>>>>>> 9555dcb87f791bb893bd93e090870559f467af4e
     <script src="js/contacts-modal.js"></script>
     <script src="js/awards.js"></script>
+    <script src="js/faq-logic.js"></script>
 </body>
 
 </html>
