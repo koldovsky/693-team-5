@@ -5,8 +5,25 @@
                 '<div class="slide"><img src="img/clients_img/big_boy_logo.svg" alt="big boy restaurant label"></div>',
                 '<div class="slide"><img src="img/clients_img/friendlys_logo.svg" alt="friendlys label"></div>'
     ];
+
+    function  addEventListenersToPoints(params) {
+        const pointsContainer = document.querySelector('.dot');
+        for (let i = 0; i < slides.length; i++) {
+            pointsContainer.innerHTML += '<span></span>';
+        } 
+        const points = document.querySelectorAll('.dots');
+        for (let i = 0; i < slides.length; i++) {
+            points[i].addEventListener('click', () => showSlide(i) );
+        }
+    }
     
      let currentSlide = 0;
+
+     function showSlide(idx) {
+        currentSlide = idx;
+        renderCarousel();
+    }
+
     
     function renderCarousel() {
         const slideContainer = document.querySelector('.logo_carousel');
@@ -28,12 +45,27 @@
      renderCarousel();
         window.addEventListener('resize', renderCarousel);
     })();
+(function () {
+    const logo_carousel = document.querySelectorAll(".logo_carousel img");
+    const modal = document.querySelector(".modal");
+    const modalimg = document.querySelector(".modal-img");
+    const close = document.querySelector(".close");
+
+    logo_carousel.forEach(image => {
+        image.addEventListener("click", () => {
+            modalimg.src = image.src;
+            modal.classList.add("appear");
+            close.addEventListener("click", () => {
+                modal.classList.remove("appear");
+            });
+        });
+    });
+})();
     
 
 
 
-
-
+    
 
 
 
