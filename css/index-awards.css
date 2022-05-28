@@ -13,6 +13,11 @@
 }
 .carousel_awards{
     height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.carousel_awards .slidesAward{
+    display: flex;
 }
 .carousel_awards img{
     width: 60%;
@@ -43,8 +48,8 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
     height: 400px;
-    width: 480px;
-    margin: 50px; 
+    width: 400px;
+    margin: 10px; 
 }
 @media (max-width: 900px){
     .awards{
