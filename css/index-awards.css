@@ -7,8 +7,8 @@
     display: flex;
 }
 .awards{
-    background-color: #0a0607;
-    height: 460px;
+    background-color: var(--events-black);
+    height: 420px;
     padding-top: 30px;
 }
 .carousel_awards{
@@ -28,28 +28,29 @@
     text-align: left;
     padding-bottom: 30px;
     height: 400px;
-    width: 480px;
-    margin: 20px;
+    width: 250px;
+    margin: 10px;
 }
 .awards_title{
-    font-size: 70px;
+    font-size: 60px;
     font-family: "Crimson Pro", serif;
     font-weight: 800px; 
 }
 .awards_h3{
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 400px;
     font-family: 'Roboto', sans-serif;
 }
 .slideAward{
     color: var(--yellow-color);
-    font-size: 20px;
-    font-weight: 400px;
+    font-size: 18px;
+    font-weight: 300px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     height: 400px;
-    width: 400px;
-    margin: 10px; 
+    width: 280px;
+    margin: 10px;
+    padding-top: 30px; 
 }
 @media (max-width: 900px){
     .awards{
@@ -68,13 +69,28 @@
     .slideAward{
         font-size: 15px;
         margin: 20px;
-        width: 350px;
+        width: 300px;
+    }
+}
+@media (max-width: 600px){
+    .awards_{
+        height: 200px;
+        width: 150px;
+    }
+    .awards_title{
+        font-size: 45px;
+    }
+    .awards_h3{
+        font-size: 15px;
+    }
+    .slideAward{
+        font-size: 15px;
+        width: 150px;
     }
 }
 @media (max-width: 420px){
     ._awards{
         display: grid;
-        grid-template-rows: auto;
         justify-content: center;
     }
     .awards{
@@ -82,13 +98,13 @@
     }
     .awards_{
         text-align: center;
-        height: 200px;
-        width: 180px;
-        margin: 20px;
+        height: 180px;
+        width: 200px;
+        
     }    
     .awards_title{
-        font-size: 45px;
-        font-weight: 400px;
+        font-size: 40px;
+        font-weight: 350px;
     }
     .awards_h3{
         font-size: 16px;
@@ -97,6 +113,6 @@
         height: 100px;
     }
     .carousel_awards img{
-        width: 60%; 
+        width: 50%; 
     }
-} 
+}
