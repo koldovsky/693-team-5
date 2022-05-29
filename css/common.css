@@ -55,6 +55,8 @@ a {
     --intro-red: red;
     --clients-text:#777;
     --footer-back:#0a0607;
+    --clients-dot:#bbb;
+    --clients-active:#717171;
 }
 /* preloader
 ======================= */

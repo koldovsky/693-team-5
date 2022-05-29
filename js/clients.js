@@ -7,17 +7,14 @@
     ];
 
     function  addEventListenersToPoints(params) {
-        const pointsContainer = document.querySelector('.dot');
+        const pointsContainer = document.querySelector('.dots');
+        pointsContainer.style.cursor = 'pointer'; 
+        const points = document.querySelectorAll('.dot');
         for (let i = 0; i < slides.length; i++) {
-            pointsContainer.innerHTML += '<span></span>';
-        } 
-        const points = document.querySelectorAll('.dots');
-        for (let i = 0; i < slides.length; i++) {
-            points[i].addEventListener('click', () => showSlide(i) );
+            points[i].addEventListener('click', () => showSlide(i));
         }
     }
     
-<<<<<<< HEAD
      let currentSlide = 0;
 
      function showSlide(idx) {
@@ -25,12 +22,15 @@
         renderCarousel();
     }
 
-=======
-    let currentSlide = 0;
->>>>>>> 484c82cc61db69c52107a42c9cf0058cd9cd22ec
     
     function renderCarousel() {
         const slideContainer = document.querySelector('.logo_carousel');
+        const dotsContainer = document.querySelectorAll('.dot');
+        const dots = document.getElementsByClassName("dot");
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" mactive", "");
+        }
+        dots[currentSlide].className += " mactive";
         slideContainer.innerHTML = slides[currentSlide];
         if(window.innerWidth >= 600) {
             const secondSlide = currentSlide +1 >= slides.length ? 0 : currentSlide +1;
@@ -48,7 +48,7 @@
         setInterval(nextSlide, 4000);
     renderCarousel();
         window.addEventListener('resize', renderCarousel);
-<<<<<<< HEAD
+        addEventListenersToPoints(slides);
     })();
 (function () {
     const logo_carousel = document.querySelectorAll(".logo_carousel img");
@@ -70,9 +70,6 @@
 
 
 
-=======
-})();
->>>>>>> 484c82cc61db69c52107a42c9cf0058cd9cd22ec
     
 
 
