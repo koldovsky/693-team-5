@@ -17,7 +17,6 @@
         }
     }
     
-<<<<<<< HEAD
      let currentSlide = 0;
 
      function showSlide(idx) {
@@ -25,9 +24,7 @@
         renderCarousel();
     }
 
-=======
     let currentSlide = 0;
->>>>>>> 484c82cc61db69c52107a42c9cf0058cd9cd22ec
     
     function renderCarousel() {
         const slideContainer = document.querySelector('.logo_carousel');
@@ -48,8 +45,7 @@
         setInterval(nextSlide, 4000);
     renderCarousel();
         window.addEventListener('resize', renderCarousel);
-<<<<<<< HEAD
-    })();
+})();
 (function () {
     const logo_carousel = document.querySelectorAll(".logo_carousel img");
     const modal = document.querySelector(".modal");
@@ -66,18 +62,3 @@
         });
     });
 })();
-    
-
-
-
-=======
-})();
->>>>>>> 484c82cc61db69c52107a42c9cf0058cd9cd22ec
-    
-
-
-
-
-
-
-    
