@@ -29,6 +29,7 @@
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .nav__link {
@@ -45,6 +46,12 @@
 .nav__link:hover {
     transition: .2s linear;
     color: var(--footer-links);
+}
+
+.tel-call {
+    width: 50px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 /* .clock {
@@ -68,6 +75,9 @@
 @media (max-width: 992px) {
     .nav__link:not(:last-child) {
         margin-right: -10px;
+    }
+    .tel-call {
+        display: none;
     }
 }
 
