@@ -106,11 +106,7 @@
 }
 
 .close {
-    position: absolute;
     margin-right: 100px;
-    top: 20px;
-    right: 30px;
-    font-size: 30px;
     cursor: pointer;
 }
 
