@@ -51,6 +51,7 @@
 /* BURGER======================================================================================== */
 
 .wrapper {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -66,6 +67,7 @@
 }
 
 .menu-btn {
+    display: none;
     position: fixed;
     right: 20px;
     top: 20px;
@@ -140,4 +142,36 @@
 
 input {
     display: none;
+}
+
+@media (max-width: 1050px) {
+    .wrapper {
+        display: block;
+    }
+    .menu-btn {
+        display: block;
+    }
+}
+
+@media (max-width: 705px) {
+    .wrapper ul li a {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .wrapper ul li a:after {
+        height: 25px;
+    }
+}
+
+@media (max-width: 592px) {
+    .wrapper ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 493px) {
+    .wrapper ul li a:after {
+        display: none;
+    }
 }
