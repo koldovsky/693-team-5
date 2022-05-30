@@ -109,13 +109,12 @@
 .wrapper ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 35px;
-    font-weight: 700;
-    padding: 5px 50px; 
+    font-size: 30px;
+    font-weight: 400;
+    padding: 5px 20px; 
     position: relative;
-    line-height: 50px; 
+    line-height: 43px; 
     transition: all 0.3s ease; 
-    font-family: 'Crimson Pro', serif;    
 }
 
 .wrapper ul li a:after {
@@ -172,6 +171,5 @@ input {
 
 @media (max-width: 493px) {
     .wrapper ul li a:after {
-        display: none;
     }
 }
