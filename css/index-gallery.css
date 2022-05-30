@@ -107,12 +107,9 @@
 
 .close {
     position: absolute;
-<<<<<<< HEAD
     margin-right: 100px;
-=======
     top: 20px;
     right: 30px;
->>>>>>> 8ea6c5ce66f66b7f765511718a160e1446f9fd09
     font-size: 30px;
     cursor: pointer;
 }
