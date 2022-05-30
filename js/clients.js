@@ -21,11 +21,6 @@
         currentSlide = idx;
         renderCarousel();
     }
-
-<<<<<<< HEAD
-=======
-    let currentSlide = 0;
->>>>>>> 841659b616737111f738ca8eff0570667c9de035
     
     function renderCarousel() {
         const slideContainer = document.querySelector('.logo_carousel');
@@ -52,12 +47,9 @@
         setInterval(nextSlide, 4000);
     renderCarousel();
         window.addEventListener('resize', renderCarousel);
-<<<<<<< HEAD
         addEventListenersToPoints(slides);
-    })();
-=======
 })();
->>>>>>> 841659b616737111f738ca8eff0570667c9de035
+
 (function () {
     const logo_carousel = document.querySelectorAll(".logo_carousel img");
     const modal = document.querySelector(".modal");
@@ -73,20 +65,4 @@
             });
         });
     });
-<<<<<<< HEAD
 })();
-    
-
-
-
-    
-
-
-
-
-
-
-    
-=======
-})();
->>>>>>> 841659b616737111f738ca8eff0570667c9de035

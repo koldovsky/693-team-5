@@ -88,8 +88,7 @@
 
 .close {
     position: absolute;
-    top: 1em;
-    right: 1em;
+    margin-right: 100px;
     font-size: 30px;
     cursor: pointer;
 }
