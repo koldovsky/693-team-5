@@ -50,19 +50,3 @@
         addEventListenersToPoints(slides);
 })();
 
-(function () {
-    const logo_carousel = document.querySelectorAll(".logo_carousel img");
-    const modal = document.querySelector(".modal");
-    const modalimg = document.querySelector(".modal-img");
-    const close = document.querySelector(".close");
-
-    logo_carousel.forEach(image => {
-        image.addEventListener("click", () => {
-            modalimg.src = image.src;
-            modal.classList.add("appear");
-            close.addEventListener("click", () => {
-                modal.classList.remove("appear");
-            });
-        });
-    });
-})();
