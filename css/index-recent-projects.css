@@ -4,20 +4,20 @@
 
 :root {
     --third-section-header-color: #fff;
-    background-color: black;
+    --background-color: #0a0607;
     --paragraph-color: rgb(180,180,180);
     --date-paragraph-color: #f4c524;
 }
 
 .third-section {
-    background-color: #000;
+    background-color: var(--background-color);
     margin-top: -52px;
-    padding-top: -40px;
 }
 
 .third-section-header {
     font-family: 'Crimson Pro', serif;
     color: var(--third-section-header-color);
+    padding-top: 30px;
 }
 
 .paragraph {
@@ -58,7 +58,7 @@
    .super-power-only-text{
     position: relative;
     left: -315px;
-    background-color: black;
+    background-color: var(--events-dark-black);
     min-width: 315px;
    }
 }
@@ -71,7 +71,7 @@
     .simplicity-only-text{
     position: relative;
      left: 315px;
-     background-color: black;
+     background-color: var(--events-dark-black);
      min-width: 315px;
     }
  }
@@ -115,7 +115,7 @@ margin: auto;
 
 .simplicity-only-text {
     display: block;
-    padding: 39px 0px 39px 0px;
+    padding: 39px 10px 39px 10px;
 }
 
 .third-section-small-header {
@@ -143,7 +143,7 @@ margin: auto;
 
 .super-power-only-text {
     display: block;
-    padding: 39px 0px 39px 0px;
+    padding: 39px 10px 39px 10px;
 }
 
 .recent-projects-bottom {
