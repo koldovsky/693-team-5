@@ -15,7 +15,7 @@
     font-weight: 700;
     color: var(--white-color);
 
-    font-family: 'Lora', serif;
+    font-family: var(--intro-font);
 }
 
 .intro-sub__title {

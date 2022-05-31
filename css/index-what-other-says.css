@@ -18,7 +18,7 @@
     font-size: 60px;
     margin-bottom: 20px;
 
-    font-family: 'Crimson Pro', serif;
+    font-family: var(--title-font-family);
 }
 
 .reviews-sub__title {
@@ -26,7 +26,7 @@
     font-size: 20px;
     font-weight: 400;
 
-    font-family: 'Crimson Pro', serif;
+    font-family: var(--title-font-family);
 }
 
 /* slider
@@ -65,7 +65,7 @@
 
 .slider__title {
     font-size: 30px;
-    font-family: 'Crimson Pro', serif;
+    font-family: var(--title-font-family);
 
     margin-bottom: 50px;
 }

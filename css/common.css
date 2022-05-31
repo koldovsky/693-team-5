@@ -31,7 +31,8 @@ a {
     /* main text */
     --main-font-family: 'Roboto', sans-serif; 
     /* main end */
-
+    /* intro-title */
+    --intro-font: 'Lora', serif;
     /* title */
     --title-font-family: 'Crimson Pro', serif;
     /* title end */

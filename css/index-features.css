@@ -30,8 +30,7 @@
     font-size: 24px;
     letter-spacing: 4px;
     color: var(--black);
-    
-    font-family: 'Crimson Pro', serif;
+    font-family: var(--title-font-family);
 }
 
 .features__text {
