@@ -106,7 +106,7 @@
     }
 }
 
-.modal {
+/* .modal {
     position: fixed;
     height: 100%;
     width: 100%;
@@ -145,7 +145,7 @@
 .modal.appear {
     opacity: 1;
     pointer-events: all;
-}
+} */
 
 /*
 .bgrnd_block {
