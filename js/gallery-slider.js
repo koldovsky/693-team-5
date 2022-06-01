@@ -1,11 +1,11 @@
 
 (function () {
   const slides = [
-    "https://3000-koldovsky-693team5-s59emz63t2j.ws-eu46.gitpod.io/img/img_gallery/image1.png",
-    "https://3000-koldovsky-693team5-s59emz63t2j.ws-eu46.gitpod.io/img/img_gallery/image2.png",
-    "https://3000-koldovsky-693team5-s59emz63t2j.ws-eu46.gitpod.io/img/img_gallery/image3.png",
-    "https://3000-koldovsky-693team5-s59emz63t2j.ws-eu46.gitpod.io/img/img_gallery/image4.png",
-    "https://3000-koldovsky-693team5-s59emz63t2j.ws-eu46.gitpod.io/img/img_gallery/image5.png"
+    "https://3000-koldovsky-693team5-zb2dhrenzgt.ws-eu46.gitpod.io/img/img_gallery/image1.png",
+    "https://3000-koldovsky-693team5-zb2dhrenzgt.ws-eu46.gitpod.io/img/img_gallery/image2.png",
+    "https://3000-koldovsky-693team5-zb2dhrenzgt.ws-eu46.gitpod.io/img/img_gallery/image3.png",
+    "https://3000-koldovsky-693team5-zb2dhrenzgt.ws-eu46.gitpod.io/img/img_gallery/image4.png",
+    "https://3000-koldovsky-693team5-zb2dhrenzgt.ws-eu46.gitpod.io/img/img_gallery/image5.png"
   ];
 
   let currentSlide;
