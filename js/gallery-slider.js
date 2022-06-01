@@ -29,11 +29,11 @@
   }
 
   function getCurrentSlide() {
-    return currentSlide = slides.indexOf(document.querySelector(".modalimg").src);
+    return currentSlide = slides.indexOf(document.querySelector(".modal-img").src);
   }
 
   function imgUpdate() {
-    let img = document.querySelector(".modalimg");
+    let img = document.querySelector(".modal-img");
     img.src = slides[currentSlide];
   }
 
