@@ -17,6 +17,7 @@
 .reviews__title {
     font-size: 60px;
     margin-bottom: 20px;
+    font-weight: 600;
 
     font-family: var(--title-font-family);
 }
@@ -34,24 +35,16 @@
 
 .slider {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .slider__item {
-    width: 370px;
-    height: 500px;
+    width: 100%;
     text-align: center;
-    padding: 40px 40px 20px 40px;
-    margin: 10px;
+    padding: 40px 40px 0 40px;
+    margin: 20px;
     background-color: var(--white-color);
-
-    transition: transform 1s;
 }
 
-.slider__item:hover {
-    transform: scale(1.1);
-}
 
 .slider__img {
     width: 38%;
@@ -83,3 +76,31 @@
 time {
     font-weight: 700;
 }
+
+
+.slick-list {
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+}
+
+.flex__column {
+    min-height: 0;
+}
+
+.slider .slick-arrow{
+    margin: auto;
+    border: none;
+    font-size: 0;
+    width: 100px;
+    height: 38px;
+}
+
+.slick-arrow.slick-prev {
+    background: url('../img/left-arrow.png') 0 0 / 100% no-repeat;
+}
+.slick-arrow.slick-next {
+    background: url('../img/right-arrow.png') 0 0 / 100% no-repeat;
+}
+

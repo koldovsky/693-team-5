@@ -6,6 +6,8 @@
                 '<div class="slide"><img src="img/clients_img/friendlys_logo.svg" alt="friendlys label"></div>'
     ];
 
+    
+
     function  addEventListenersToPoints(params) {
         const pointsContainer = document.querySelector('.dots');
         pointsContainer.style.cursor = 'pointer'; 
