@@ -1,12 +1,16 @@
-
 (function () {
-  const slides = [
-    "https://3000-koldovsky-693team5-zb2dhrenzgt.ws-eu46.gitpod.io/img/img_gallery/image1.png",
-    "https://3000-koldovsky-693team5-zb2dhrenzgt.ws-eu46.gitpod.io/img/img_gallery/image2.png",
-    "https://3000-koldovsky-693team5-zb2dhrenzgt.ws-eu46.gitpod.io/img/img_gallery/image3.png",
-    "https://3000-koldovsky-693team5-zb2dhrenzgt.ws-eu46.gitpod.io/img/img_gallery/image4.png",
-    "https://3000-koldovsky-693team5-zb2dhrenzgt.ws-eu46.gitpod.io/img/img_gallery/image5.png"
-  ];
+  const buttonNext = document.querySelector(".next");
+  const buttonPrev = document.querySelector(".prev");
+  buttonNext.addEventListener("click", () => {
+    next();
+  });
+
+
+  
+  let slides = [];
+  imgs.forEach(img => {
+    slides.push(img.src);
+  });
 
   let currentSlide;
 
@@ -29,22 +33,11 @@
   }
 
   function getCurrentSlide() {
-    return currentSlide = slides.indexOf(document.querySelector(".modal-img").src);
+    currentSlide = slides.indexOf(document.querySelector(".modal-img").src);
   }
 
   function imgUpdate() {
     let img = document.querySelector(".modal-img");
     img.src = slides[currentSlide];
   }
-
-  const buttonNext = document.querySelector(".next");
-  const buttonPrev = document.querySelector(".prev");
-
-  buttonNext.addEventListener("click", () => {
-    next();
-  });
-
-  buttonPrev.addEventListener("click", () => {
-    prev();
-  });
 })();
