@@ -4,11 +4,13 @@
   buttonNext.addEventListener("click", () => {
     next();
   });
+  buttonPrev.addEventListener("click", () => {
+    prev();
+  });
 
-
-  
+  const imgs = document.querySelectorAll(".gallery_grids img");
   let slides = [];
-  imgs.forEach(img => {
+  imgs.forEach((img) => {
     slides.push(img.src);
   });
 
