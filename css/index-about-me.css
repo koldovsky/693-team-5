@@ -41,10 +41,26 @@ font-weight: 400px;
 line-height: 1.5;
 }
 a{
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 10px;
     color: var(--white-color);
 } 
+.fa-youtube:hover{
+    color: var(--youtube-color);
+    transform: scale(1.5)
+}
+.fa-instagram:hover{
+    color: var(--instagram-color);
+    transform: scale(1.5)
+}
+.fa-facebook:hover{
+    color: var(--facebook-color);
+    transform: scale(1.5)
+}
+.fa-twitter:hover{
+    color: var(--twitter-color);
+    transform: scale(1.2)
+}
 @media (max-width: 1200px) {
     .block_bgrnd{
         margin-bottom: -51px;
