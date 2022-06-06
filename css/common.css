@@ -58,6 +58,8 @@ a {
     --footer-back:#0a0607;
     --clients-dot:#bbb;
     --clients-active:#717171;
+    --clients-modal: rgba(0, 0, 0, 0.7);
+    --clients-logo: #333;
     --facebook-color: #1877F2;
     --twitter-color: #1DA1F2;
     --instagram-color: #E4405F;

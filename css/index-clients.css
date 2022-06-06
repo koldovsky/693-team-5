@@ -121,8 +121,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    background-color:var(--clients-modal);
+    color:var(--white-color);
     z-index: 1;
     overflow: auto;
     opacity: 0;
@@ -160,8 +160,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    color: #fff;
-    background: #333;
+    color:var(--white-color);
+    background:var( --clients-logo);
     height: 50px;
     width: 15px;
     line-height: 50px;
