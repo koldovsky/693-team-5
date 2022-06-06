@@ -1,7 +1,6 @@
 /* font-family: 'Crimson Pro', serif; */
 /* font-family: 'PT Sans', sans-serif; */
 .faq {
-  display: flexbox;
   background-color: #F4C524;
 }
 
@@ -15,7 +14,9 @@
 }
 
 .faq__collapsible {
-  display: flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #F4C524;
   color: black;
   cursor: pointer;
@@ -28,28 +29,6 @@
   font-family: 'Crimson Pro', serif;
   font-weight: 600;
   transition: all 0.5s ease-in-out;
-}
-
-
-@media (max-width: 1200px) {
-  .faq__collapsible {
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-}
-
-@media (max-width: 900px) {
-  .faq__collapsible {
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-}
-
-@media (max-width: 420px) {
-  .faq__collapsible {
-    flex-direction: row;
-    justify-content: flex-end;
-  }
 }
 
 .faq__h2 {
@@ -84,16 +63,14 @@
   padding: 15px;
   font-size: 20px;
   overflow: hidden;
-  transition: all 0,5s ease-in-out;
 }
 
 .active,
 .faq__collapsible:hover {
   background-color: #F4C524;
-  animation-name: faq__button__hover__test;
+/*  animation-name: faq__button__hover__test; */
 }
 
-@keyframes
 
 .faq__collapsible::after {
   content: "+";
@@ -115,15 +92,17 @@
 
 .faq__content {
   padding: 0;
-  display: none;
+  visibility: hidden;
   overflow: hidden;
+  height: 0;
   background-color: #F4C524;
   transition: all 0.5s ease-in-out;
 }
 
 .faq__content.active {
   padding: 0;
-  display: none;
+  visibility: visible;
+  height: 100px;
   overflow: hidden;
   background-color: #F4C524;
   transition: all 0.5s ease-in-out;
