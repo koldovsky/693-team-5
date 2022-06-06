@@ -106,8 +106,8 @@
 
 .close {
     position: absolute;
-    top: 200px;
-    right: 40px;
+    top: 190px;
+    right: 30px;
     cursor: pointer;
     font-size: 30px;
 }
