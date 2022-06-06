@@ -5,19 +5,16 @@
 }
 ._awards{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .awards{
     background-color: var(--events-black);
     height: 420px;
-    padding-top: 30px;
 }
 .carousel_awards{
-    height: 400px;
     display: flex;
-    justify-content: space-between;
-}
-.carousel_awards .slidesAward{
-    display: flex;
+    margin-top: 50px;
 }
 .carousel_awards img{
     width: 60%;
@@ -25,11 +22,8 @@
 }
 .awards_{
     color: var(--white-color); 
-    text-align: left;
-    padding-bottom: 30px;
     height: 400px;
     width: 250px;
-    margin: 10px;
 }
 .awards_title{
     font-size: 60px;
@@ -64,6 +58,14 @@
 .slideAward:nth-child(3) {
     transform: scale(0.9);
 }
+@media (max-width: 1000px){
+    ._awards{
+        justify-content: center;
+    }
+    .carousel_awards img{
+        width: 80%;
+    }
+}
 @media (max-width: 900px){
     .awards{
         height: 360px;
@@ -71,6 +73,7 @@
     .awards_{
         height: 200px;
         width: 170px;
+        margin-bottom: 120px;
     }
     .awards_title{
         font-size: 50px;
@@ -83,9 +86,17 @@
         margin: 20px;
         width: 250px;
     }
+    .slideAward:nth-child(1) {
+        transform: scale(1);
+    }
     .slideAward:nth-child(2) {
-        transform: scale(0.9);
+        transform: scale(1);
         color: var(--yellow-color);
+    }
+}
+@media (max-width: 768px){
+    .slideAward{
+        width: 150px;
     }
 }
 @media (max-width: 600px){
@@ -103,8 +114,11 @@
         font-size: 15px;
         width: 150px;
     }
+    .slideAward:nth-child(1) {
+        transform: scale(1);
+    }
     .slideAward:nth-child(2) {
-        transform: scale(0.9);
+        transform: scale(1);
         color: var(--yellow-color);
     }
 }
@@ -120,6 +134,7 @@
         text-align: center;
         height: 180px;
         width: 200px;
+        margin-bottom: 10px;
     }    
     .awards_title{
         font-size: 40px;
@@ -132,7 +147,7 @@
         height: 100px;
     }
     .carousel_awards img{
-        width: 50%; 
+        width: 80%; 
     }
     .slideAward:nth-child(1) {
         transform: scale(1.1);
