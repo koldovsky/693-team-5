@@ -66,7 +66,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    height: 200px;
+    height: 300px;
 
 }
 
@@ -163,9 +163,9 @@
     color:var(--white-color);
     background:var( --clients-logo);
     height: 50px;
-    width: 50px;
+    width: 15px;
     line-height: 50px;
-    font-size: 50px;
+    font-size: 15px;
     text-align: center;
     cursor: pointer;
 }
